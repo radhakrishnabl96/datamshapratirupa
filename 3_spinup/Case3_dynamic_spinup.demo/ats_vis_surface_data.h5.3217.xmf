@@ -1,0 +1,287 @@
+<Xdmf>
+  <Domain>
+    <Grid Name="Mesh">
+      <Topology Name="mixedtopo" NumberOfElements="1" TopologyType="Mixed">
+        <DataItem DataType="Int" Dimensions="5" Format="HDF">
+          ats_vis_surface_mesh.h5:/0/Mesh/MixedElements
+        </DataItem>
+      </Topology>
+      <Geometry Name="geo" Type="XYZ">
+        <DataItem DataType="Float" Dimensions="4  3" Format="HDF">
+          ats_vis_surface_mesh.h5:/0/Mesh/Nodes
+        </DataItem>
+      </Geometry>
+      <Time Value="4.92813141683778211e-01"/>
+      <Attribute Center="Cell" Name="surface-air_temperature.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-air_temperature.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-albedo.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-albedo.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-albedos.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-albedos.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-albedos.cell.1" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-albedos.cell.1/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-albedos.cell.2" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-albedos.cell.2/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-area_fractions.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-area_fractions.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-area_fractions.cell.1" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-area_fractions.cell.1/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-area_fractions.cell.2" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-area_fractions.cell.2/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-aspect.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-aspect.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-cell_volume.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-cell_volume.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-elevation.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-elevation.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-emissivities.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-emissivities.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-emissivities.cell.1" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-emissivities.cell.1/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-emissivities.cell.2" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-emissivities.cell.2/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-energy.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-energy.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-enthalpy.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-enthalpy.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-evaporative_flux.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-evaporative_flux.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-incoming_longwave_radiation.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-incoming_longwave_radiation.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-incoming_shortwave_radiation.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-incoming_shortwave_radiation.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-internal_energy_ice.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-internal_energy_ice.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-internal_energy_liquid.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-internal_energy_liquid.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-manning_coefficient.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-manning_coefficient.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-mass_density_liquid.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-mass_density_liquid.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-molar_density_liquid.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-molar_density_liquid.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-overland_conductivity.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-overland_conductivity.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-ponded_depth.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-ponded_depth.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-ponded_depth_bar.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-ponded_depth_bar.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-precipitation_rain.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-precipitation_rain.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-pres_elev.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-pres_elev.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-pressure.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-pressure.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-qE_conducted.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-qE_conducted.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-qE_latent_heat.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-qE_latent_heat.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-qE_lw_out.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-qE_lw_out.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-qE_sensible_heat.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-qE_sensible_heat.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-qE_snowmelt.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-qE_snowmelt.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-relative_humidity.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-relative_humidity.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-relative_permeability.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-relative_permeability.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-slope_magnitude.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-slope_magnitude.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-source_molar_density.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-source_molar_density.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-surface_subsurface_energy_flux.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-surface_subsurface_energy_flux.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-surface_subsurface_flux.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-surface_subsurface_flux.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-temperature.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-temperature.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-thaw_depth.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-thaw_depth.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-thermal_conductivity.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-thermal_conductivity.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-total_energy_source.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-total_energy_source.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-unfrozen_effective_depth.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-unfrozen_effective_depth.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-unfrozen_fraction.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-unfrozen_fraction.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-velocity.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-velocity.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-velocity.cell.1" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-velocity.cell.1/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-velocity.cell.2" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-velocity.cell.2/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-water_content.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-water_content.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-water_content_bar.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-water_content_bar.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-water_source.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-water_source.cell.0/3217
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="surface-wind_speed.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_surface_data.h5:surface-wind_speed.cell.0/3217
+        </DataItem>
+      </Attribute>
+    </Grid>
+  </Domain>
+</Xdmf>

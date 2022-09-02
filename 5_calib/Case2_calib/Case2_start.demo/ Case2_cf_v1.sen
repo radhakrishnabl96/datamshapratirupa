@@ -1,0 +1,76 @@
+                  PARAMETER SENSITIVITIES: CASE Case5_su_cv_cf_v1
+
+
+ OPTIMISATION ITERATION NO.  1 ----->
+ Parameter name    Group          Current value    Sensitivity
+   alpha_p         alpha_p_gp      1.000000E-02     8.249769E-05
+   alpha_m         alpha_m_gp      1.824910E-03     4.763607E-04
+   n_p             n_p_gp           1.50000         2.627097E-06
+   wr_p            wr_p_gp         0.100000         1.541246E-05
+   por_p           por_p_gp        0.637390         1.310455E-05
+   por_m           por_m_gp        0.481031         1.098696E-05
+   perm_p          perm_p_gp       5.346620E-11      14042.6    
+   perm_m          perm_m_gp       1.000000E-13     3.969067E+06
+   pen_s           pen_s_gp        2.000000E-02      0.00000    
+   z_bg            z_bg_gp         4.000000E-02     2.563512E-05
+   z_s             z_s_gp          5.000000E-03      0.00000    
+   b_bc            b_bc_gp          268.450         1.988526E-08
+
+
+
+                        COMPLETION OF OPTIMISATION PROCESS
+
+ Composite sensitivities for observation group "temp" ----->
+
+ Number of observations with non-zero weight =  7672
+ Parameter name    Group          Current value    Sensitivity
+   alpha_p         alpha_p_gp      1.000000E-02     2.270392E-05
+   alpha_m         alpha_m_gp      1.824910E-03     1.320750E-04
+   n_p             n_p_gp           1.50000         4.093824E-07
+   wr_p            wr_p_gp         0.100000         2.230522E-06
+   por_p           por_p_gp        0.637390         1.017756E-06
+   por_m           por_m_gp        0.481031         1.199351E-06
+   perm_p          perm_p_gp       5.346620E-11      4291.85    
+   perm_m          perm_m_gp       1.000000E-13     1.272975E+06
+   pen_s           pen_s_gp        2.000000E-02      0.00000    
+   z_bg            z_bg_gp         4.000000E-02     1.194533E-05
+   z_s             z_s_gp          5.000000E-03      0.00000    
+   b_bc            b_bc_gp          268.450         6.972923E-09
+
+
+
+ Composite sensitivities for observation group "mois" ----->
+
+ Number of observations with non-zero weight =  7672
+ Parameter name    Group          Current value    Sensitivity
+   alpha_p         alpha_p_gp      1.000000E-02     1.634258E-04
+   alpha_m         alpha_m_gp      1.824910E-03     9.435222E-04
+   n_p             n_p_gp           1.50000         5.238220E-06
+   wr_p            wr_p_gp         0.100000         3.074410E-05
+   por_p           por_p_gp        0.637390         2.618933E-05
+   por_m           por_m_gp        0.481031         2.194116E-05
+   perm_p          perm_p_gp       5.346620E-11      27755.3    
+   perm_m          perm_m_gp       1.000000E-13     7.835402E+06
+   pen_s           pen_s_gp        2.000000E-02      0.00000    
+   z_bg            z_bg_gp         4.000000E-02     4.985927E-05
+   z_s             z_s_gp          5.000000E-03      0.00000    
+   b_bc            b_bc_gp          268.450         3.915447E-08
+
+
+
+ Composite sensitivities for all observations/prior info ----->
+
+ Number of observations with non-zero weight = 15344
+ Parameter name    Group          Current value    Sensitivity
+   alpha_p         alpha_p_gp      1.000000E-02     8.249769E-05
+   alpha_m         alpha_m_gp      1.824910E-03     4.763607E-04
+   n_p             n_p_gp           1.50000         2.627097E-06
+   wr_p            wr_p_gp         0.100000         1.541246E-05
+   por_p           por_p_gp        0.637390         1.310455E-05
+   por_m           por_m_gp        0.481031         1.098696E-05
+   perm_p          perm_p_gp       5.346620E-11      14042.6    
+   perm_m          perm_m_gp       1.000000E-13     3.969067E+06
+   pen_s           pen_s_gp        2.000000E-02      0.00000    
+   z_bg            z_bg_gp         4.000000E-02     2.563512E-05
+   z_s             z_s_gp          5.000000E-03      0.00000    
+   b_bc            b_bc_gp          268.450         1.988526E-08

@@ -1,0 +1,17 @@
+This folder contains all the relevant materials required for running the simulations with respect to the first Article. Note that ATS, PEST, PESTPP softwares has to be downloaded. 
+Each folder always contains three sub-folders or cases (based on the top boundary condition): 
+1. Case1: Subsurface temperature at 0.0 m 
+2. Case2: Surface energy balance without snow
+3. Case3: Surface energy balance with snow  
+
+The folder structure:
+
+1. Data preparation (1_data_prep): To prepare the input and output datasets for the simulations. It also contains the raw datasets.
+2. Trial ats files (2_trial_ats): To test the validity of input files and data. It contains the raw input xml files. 
+3. Spin-up (3_spinup): It generates the initial conditions for the calibration process. It contains two stages: Static (Considering only Case1) and Dynamic spinup
+4. Sensitivity analysis (4_sens_analy): To identify the parameters of interest which will later on be considered for the calibration process. (Do I consider the manual SA or results from PESTPP-GLM?)
+5. Calibration (5_calib): To calibrate the sensitized model parameters 
+6. Validation (6_valid): To validate the model results, determine the model efficiency, and interpretation of the results.
+7. Cluster setup (7_cluster): To run the model on the LUIS cluster, Singularity was downloaded and an image file with all the respective softwares (ATS, pest, ..) were installed. 
+Basic template files are stored here.
+

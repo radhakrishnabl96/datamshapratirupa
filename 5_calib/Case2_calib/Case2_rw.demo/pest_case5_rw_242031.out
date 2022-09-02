@@ -1,0 +1,36 @@
+
+================================================================================
+========================== Job Accounting Information ==========================
+=                                                                              =
+=  To get more details about the job, execute: sacct -o all -j 242031
+=                                                                              =
+================================================================================
+
+       JobID    JobName ReqNodes  ReqCPUS     ReqMem  Timelimit   TotalCPU  SystemCPU    UserCPU     MaxRSS   NNodes   NTasks    Elapsed      State ExitCode                       NodeList 
+------------ ---------- -------- -------- ---------- ---------- ---------- ---------- ---------- ---------- -------- -------- ---------- ---------- -------- ------------------------------ 
+242031       pest_case+        1       32        4Gc 8-07:00:00 1-17:00:14   04:46:15 1-12:13:58                   1          1-11:58:00  COMPLETED      0:0                       amo-n037 
+242031.batch      batch        1       32        4Gc            1-17:00:14   04:46:15 1-12:13:58    214096K        1        1 1-11:58:00  COMPLETED      0:0                       amo-n037 
+242031.exte+     extern        1       32        4Gc              00:00:00   00:00:00   00:00:00      1492K        1        1 1-11:58:02  COMPLETED      0:0                       amo-n037 
+
+================================================================================
+===================== Description of job accounting fields =====================
+================================================================================
+
+  JobID     - ID number of the job/step.
+               <JobID>.batch: resources requested/used by all commands (including mpirun!) in the job script EXCEPT srun
+               <JobID>.extern: resources used by external commands (e.g. session opened by SSH on the reserved node)
+               <JobID>.<number>: resources requested/used by the job step (COMMAND srun!) of <number> in the job script
+
+  ReqNodes  - Requested number of nodes for the job/step
+  ReqCPUS   - Requested number of CPUs for the job/step
+  ReqMem    - Requested amount of memory per CPU ('c' at the end) or 
+              per node ('n' at the end) for the job (NOT the step)
+  Timelimit - Wallclock time requested for the job
+
+  TotalCPU  - Total CPU time (SystemCPU + UserCPU) used by the job/step
+  MaxRSS    - Maximum memory(resident set size) among all tasks in the job/step
+  NNode     - Number of nodes in the job/step
+  NTasks    - Number of tasks in the job/step
+  Elapsed   - Wallclock time spent on the job/step
+  ExitCode  - Exit code returned by the job/step
+  NodeList  - List of nodes used in job/step

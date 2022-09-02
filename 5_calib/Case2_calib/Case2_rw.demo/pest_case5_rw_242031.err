@@ -1,0 +1,70 @@
+Module for GCCcore, version .11.2.0 loaded
+Module for zlib, version .1.2.11 loaded
+Module for binutils, version .2.37 loaded
+Module for bzip2, version .1.0.8 loaded
+Module for ncurses, version .6.2 loaded
+Module for libreadline, version .8.1 loaded
+Module for Tcl, version 8.6.11 loaded
+Module for SQLite, version .3.36 loaded
+Module for XZ, version .5.2.5 loaded
+Module for GMP, version 6.2.1 loaded
+Module for libffi, version .3.4.2 loaded
+Module for OpenSSL, version 1.1 loaded
+Module for Python, version 3.9.6 loaded
+Module for GCCcore, version .11.2.0 unloaded
+Module for GCCcore, version .10.2.0 loaded
+Module for binutils, version .2.37 unloaded
+Module for binutils, version .2.35 loaded
+Module for GCC, version 10.2.0 loaded
+Module for numactl, version .2.0.13 loaded
+Module for libxml2, version .2.9.10 loaded
+Module for libpciaccess, version .0.16 loaded
+Module for hwloc, version .2.2.0 loaded
+Module for libevent, version .2.1.12 loaded
+Module for UCX, version .1.9.0 loaded
+Module for libfabric, version .1.11.0 loaded
+Module for PMIx, version .3.1.5 loaded
+Module for OpenMPI, version 4.0.5 loaded
+Module for OpenBLAS, version 0.3.12 loaded
+Module for FFTW, version 3.3.8 loaded
+Module for ScaLAPACK, version 2.1.0 loaded
+Module for binutils, version .2.35 unloaded
+Module for Python, version 3.9.6 unloaded
+Module for binutils, version .2.35 loaded
+Module for libreadline, version .8.1 unloaded
+Module for libreadline, version .8.0 loaded
+Module for libreadline, version .8.0 unloaded
+Module for SQLite, version .3.36 unloaded
+Module for libreadline, version .8.0 loaded
+Module for Tcl, version 8.6.11 unloaded
+Module for Tcl, version 8.6.10 loaded
+Module for SQLite, version .3.33.0 loaded
+Module for GMP, version 6.2.1 unloaded
+Module for GMP, version 6.2.0 loaded
+Module for libffi, version .3.4.2 unloaded
+Module for libffi, version .3.3 loaded
+Module for Python, version 3.8.6 loaded
+Module for pybind11, version .2.6.0 loaded
+Module for SciPy-bundle, version 2020.11 loaded
+Module for zlib, version .1.2.11 unloaded
+Module for zlib, version .1.2.11 loaded
+Module for bzip2, version .1.0.8 unloaded
+Module for bzip2, version .1.0.8 loaded
+Module for ncurses, version .6.2 unloaded
+Module for ncurses, version .6.2 loaded
+Module for XZ, version .5.2.5 unloaded
+Module for XZ, version .5.2.5 loaded
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) XZ/.5.2.5     2) bzip2/.1.0.8     3) ncurses/.6.2     4) zlib/.1.2.11
+
+The following have been reloaded with a version change:
+  1) GCCcore/.11.2.0 => GCCcore/.10.2.0
+  2) GMP/6.2.1 => GMP/6.2.0
+  3) Python/3.9.6 => Python/3.8.6
+  4) SQLite/.3.36 => SQLite/.3.33.0
+  5) Tcl/8.6.11 => Tcl/8.6.10
+  6) binutils/.2.37 => binutils/.2.35
+  7) libffi/.3.4.2 => libffi/.3.3
+  8) libreadline/.8.1 => libreadline/.8.0
+

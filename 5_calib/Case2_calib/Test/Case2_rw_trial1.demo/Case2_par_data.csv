@@ -1,0 +1,13 @@
+parnme,partrans,parchglim,parval1,parlbnd,parubnd,pargp,scale,offset,dercom
+alpha_p,none,factor,0.01,0.0025,0.0175,alpha_p_gp,1.0,0.0,1
+alpha_m,none,factor,0.001825,0.00046,0.0032,alpha_m_gp,1.0,0.0,1
+n_p,none,factor,2.05,1.025,3.075,n_p_gp,1.0,0.0,1
+wr_p,none,factor,0.224,0.0561,0.3926,wr_p_gp,1.0,0.0,1
+por_p,none,factor,0.637,0.15935,1.115,por_p_gp,1.0,0.0,1
+por_m,none,factor,0.481,0.120,0.8418,por_m_gp,1.0,0.0,1
+perm_p,none,factor,5.346e-11,1.3366e-11,9.3565e-11,perm_p_gp,1.0,0.0,1
+perm_m,none,factor,1e-13,2.5e-14,1.75e-13,perm_m_gp,1.0,0.0,1
+pen_s,none,factor,0.02,0.005,0.035,pen_s_gp,1.0,0.0,1
+z_bg,none,factor,0.04,0.01,0.07,z_bg_gp,1.0,0.0,1
+z_s,none,factor,0.005,0.00125,0.00875,albedo_bg_gp,1.0,0.0,1
+b_bc,none,factor,268.45,263.15,274.15,b_bc_gp,1.0,0.0,1

@@ -1,0 +1,119 @@
+Bootstrap: docker
+From: ubuntu:20.04
+%help
+    This is the ats+pest+pestpp singularity container that is written based on the youtube link - https://www.youtube.com/watch?v=SJHizTjwyFk
+    Written on the date - 17/01/2022
+%labels
+    CREATOR Radhakrishna
+    Version v0.1
+%environment
+    export ATS_BASE=/ats_s
+    export ATS_BUILD_TYPE=Release
+    export ATS_VERSION=master
+    export OPENMPI_DIR=/usr
+    export AMANZI_TPLS_BUILD_DIR=${ATS_BASE}/amanzi_tpls-build-${ATS_VERSION}-${ATS_BUILD_TYPE}
+    export AMANZI_TPLS_DIR=${ATS_BASE}/amanzi_tpls-install-${ATS_VERSION}-${ATS_BUILD_TYPE}
+    export AMANZI_SRC_DIR=${ATS_BASE}/amanzi
+    export AMANZI_BUILD_DIR=${ATS_BASE}/amanzi-build-${ATS_VERSION}-${ATS_BUILD_TYPE}
+    export AMANZI_DIR=${ATS_BASE}/amanzi-install-${ATS_VERSION}-${ATS_BUILD_TYPE}
+    export ATS_SRC_DIR=${AMANZI_SRC_DIR}/src/physics/ats
+    export ATS_DIR=${AMANZI_DIR}
+    export PATH=${ATS_DIR}/bin:${PATH}
+    export PATH=${AMANZI_TPLS_DIR}/bin:${PATH}
+    export PYTHONPATH=${ATS_SRC_DIR}/tools/utils:${PYTHONPATH}
+    export PYTHONPATH=${AMANZI_TPLS_DIR}/SEACAS/lib:${PYTHONPATH}
+    export LD_LIBRARY_PATH=${AMANZI_TPLS_DIR}/trilinos-13-0-afc4e525/lib:${AMANZI_TPLS_DIR}/SEACAS/lib:${AMANZI_TPLS_DIR}/lib:${LD_LIBRARY_PATH}
+    export PATH="/pest_setup/pest17/pest_source:$PATH"
+%files
+    ats_s
+    pest_setup/pest17
+    pest_setup/pestpp
+%post
+    apt-get -y update
+    apt-get -y upgrade
+    apt-get -y install git
+    DEBIAN_FRONTEND=noninteractive apt-get -y install software-properties-common
+    add-apt-repository ppa:deadsnakes/ppa
+    apt-get -yy install python3.7
+    apt-get -y install libopenmpi-dev openmpi-bin
+    apt-get -y install libblas-dev liblapack-doc liblapack-dev
+    apt-get -y install cmake
+    apt-get -y update 
+    apt-get -y install libatlas-base-dev liblapack-dev libblas-dev
+    apt -y install gfortran 
+    apt-get -y update
+    apt-get install -y python2.7-dev
+    apt install -y curl
+    apt install -y g++
+    apt install -y build-essential
+    apt install -y python-dev
+    apt-get install -y nano
+    export ATS_BASE=/ats_s
+    export ATS_BUILD_TYPE=Release
+    export ATS_VERSION=master
+    export OPENMPI_DIR=/usr
+    export AMANZI_TPLS_BUILD_DIR=${ATS_BASE}/amanzi_tpls-build-${ATS_VERSION}-${ATS_BUILD_TYPE}
+    export AMANZI_TPLS_DIR=${ATS_BASE}/amanzi_tpls-install-${ATS_VERSION}-${ATS_BUILD_TYPE}
+    export AMANZI_SRC_DIR=${ATS_BASE}/amanzi
+    export AMANZI_BUILD_DIR=${ATS_BASE}/amanzi-build-${ATS_VERSION}-${ATS_BUILD_TYPE}
+    export AMANZI_DIR=${ATS_BASE}/amanzi-install-${ATS_VERSION}-${ATS_BUILD_TYPE}
+    export ATS_SRC_DIR=${AMANZI_SRC_DIR}/src/physics/ats
+    export ATS_DIR=${AMANZI_DIR}
+    export PATH=${ATS_DIR}/bin:${PATH}
+    export PATH=${AMANZI_TPLS_DIR}/bin:${PATH}
+    export PYTHONPATH=${ATS_SRC_DIR}/tools/utils:${PYTHONPATH}
+    export PYTHONPATH=${AMANZI_TPLS_DIR}/SEACAS/lib:${PYTHONPATH}
+    export LD_LIBRARY_PATH=${AMANZI_TPLS_DIR}/trilinos-13-0-afc4e525/lib:${AMANZI_TPLS_DIR}/SEACAS/lib:${AMANZI_TPLS_DIR}/lib:${LD_LIBRARY_PATH}
+    export PATH="/pest_setup/pest17/pest_source:$PATH"
+    apt-get -y install python3-pip
+    pip install pandas
+    pip install cryptography
+    pip install h5py
+    pip install matplotlib
+    pip install pyemu
+    
+    
+    cd pest_setup/pestpp
+    mkdir build
+    cd build
+    cmake -DCMAKE_BUILD_TYPE=Release ..
+    make -j8
+    cpack -G TGZ
+    make install
+
+    cd ../..
+    cd pest17/pest_source
+    make cppp
+    make -f pest.mak all 
+    make clean
+    make -f ppest.mak all 
+    make clean
+    make -f pestutl1.mak all
+    make clean
+    make -f pestutl2.mak all
+    make clean
+    make -f pestutl3.mak all
+    make clean
+    make -f pestutl4.mak all
+    make clean
+    make -f pestutl5.mak all
+    make clean
+    make -f pestutl6.mak all
+    make clean
+    make -f pestutl7.mak all
+    make clean
+    make -f sensan.mak all
+    make clean
+    make -f beopest.mak all
+    make clean
+    make install
+
+    cd ../../..
+    chmod +x pest_setup/pest17/pest_source 
+    
+    cd ats_s
+
+    . ${AMANZI_SRC_DIR}/build_ATS_generic.sh
+
+%help
+    This is the final version of the recipe file that can download ats, pest and all the necessary dependencies.

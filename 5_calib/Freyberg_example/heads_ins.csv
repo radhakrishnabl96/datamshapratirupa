@@ -1,0 +1,5 @@
+parnme,partrans,parchglim,parval1,parlbnd,parubnd,pargp,scale,offset,dercom
+n_m,none,factor,1.2,1.05,3.0,hydraulic,1.0,0.0,1
+tcs_m,none,factor,1.0,0.8,2.5,thermal,1.0,0.0,1
+af_m,none,factor,0.05,0.02,0.1,hydraulic,1.0,0.0,1
+af_p,none,factor,0.005,0.002,0.01,hydraulic,1.0,0.0,1

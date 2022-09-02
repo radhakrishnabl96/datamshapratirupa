@@ -1,0 +1,2 @@
+iteration,alpha_p,alpha_m,n_p,wr_p,por_p,por_m,perm_p,perm_m,pen_s,z_bg,z_s,b_bc
+0,0.01,0.00182491,1.5,0.1,0.63739,0.481031,5.34662e-11,1e-13,0.02,0.04,0.005,268.45

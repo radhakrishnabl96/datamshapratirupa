@@ -1,0 +1,72 @@
+<Xdmf>
+  <Domain>
+    <Grid Name="Mesh">
+      <Topology Name="mixedtopo" NumberOfElements="1" TopologyType="Mixed">
+        <DataItem DataType="Int" Dimensions="5" Format="HDF">
+          ats_vis_snow_mesh.h5:/0/Mesh/MixedElements
+        </DataItem>
+      </Topology>
+      <Geometry Name="geo" Type="XYZ">
+        <DataItem DataType="Float" Dimensions="4  3" Format="HDF">
+          ats_vis_snow_mesh.h5:/0/Mesh/Nodes
+        </DataItem>
+      </Geometry>
+      <Time Value="6.62559890485968417e+00"/>
+      <Attribute Center="Cell" Name="snow-age.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-age.cell.0/30672
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="snow-cell_volume.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-cell_volume.cell.0/30672
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="snow-death_rate.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-death_rate.cell.0/30672
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="snow-density.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-density.cell.0/30672
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="snow-depth.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-depth.cell.0/30672
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="snow-melt.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-melt.cell.0/30672
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="snow-precipitation.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-precipitation.cell.0/30672
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="snow-source.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-source.cell.0/30672
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="snow-source_sink.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-source_sink.cell.0/30672
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="snow-temperature.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-temperature.cell.0/30672
+        </DataItem>
+      </Attribute>
+      <Attribute Center="Cell" Name="snow-water_equivalent.cell.0" Type="Scalar">
+        <DataItem DataType="Float" Dimensions="1" Format="HDF">
+          ats_vis_snow_data.h5:snow-water_equivalent.cell.0/30672
+        </DataItem>
+      </Attribute>
+    </Grid>
+  </Domain>
+</Xdmf>

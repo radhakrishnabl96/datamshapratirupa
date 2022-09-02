@@ -1,0 +1,1 @@
+This folder contains the simulation results conducted for the validation of three cases - after spinup and calibration with 3 years of data for Case 1 and Case 5 and 1 year of data with Case5_III.
