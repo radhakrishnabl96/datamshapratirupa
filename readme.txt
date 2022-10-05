@@ -14,4 +14,6 @@ The folder structure:
 6. Validation (6_valid): To validate the model results, determine the model efficiency, and interpretation of the results.
 7. Cluster setup (7_cluster): To run the model on the LUIS cluster, Singularity was downloaded and an image file with all the respective softwares (ATS, pest, ..) were installed. 
 Basic template files are stored here.
+8. Reference files (8_ref): Relevant reference materials for better understanding the topic. It includes presentations, articles, images .. etc.
+9. Tables and figures for first article (9_article1_FigsTables): A jupyter notebook is used to prepare the tables and figures that are going to be used in the first article. The tables and figures are also stored in the folder. 
 
