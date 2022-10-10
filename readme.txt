@@ -16,4 +16,4 @@ The folder structure:
 Basic template files are stored here.
 8. Reference files (8_ref): Relevant reference materials for better understanding the topic. It includes presentations, articles, images .. etc.
 9. Tables and figures for first article (9_article1_FigsTables): A jupyter notebook is used to prepare the tables and figures that are going to be used in the first article. The tables and figures are also stored in the folder. 
-
+10. Final simulation (10_finalsim): This folder contains the simulations that are carried out for one year with cyclic average data (as there is no other yearly data) to conduct a final comparison analysis after validation.
