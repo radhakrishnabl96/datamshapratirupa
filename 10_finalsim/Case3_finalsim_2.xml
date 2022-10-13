@@ -1037,7 +1037,7 @@
           <!-- Is the water transition depth [m] similar to the penetration depth of sw radiation in water from the article? -->
           <Parameter name="snow transition depth [m]" type="double" value="0.02070556183682" />
           <Parameter name="water transition depth [m]" type="double" value="   1.0000000E-02" />
-          <Parameter name="albedo of bare ground [-]" type="double" value="       5.500000The shape" />
+          <Parameter name="albedo of bare ground [-]" type="double" value="  5.5000000E-01" />
           <Parameter name="emissivity of bare ground [-]" type="double" value="  5.5000000E-01" />
         </ParameterList>
       </ParameterList>
@@ -1118,6 +1118,18 @@
         </ParameterList>
         <ParameterList name="surface-subsurface energy flux [W m^-2]" type="ParameterList">
           <Parameter name="variable" type="string" value="surface-surface_subsurface_energy_flux" />
+          <Parameter name="region" type="string" value="surface domain" />
+          <Parameter name="functional" type="string" value="average" />
+          <Parameter name="location name" type="string" value="cell" />
+        </ParameterList>
+        <ParameterList name="incoming shortwave radiation [W m^-2]" type="ParameterList">
+          <Parameter name="variable" type="string" value="surface-incoming_shortwave_radiation" />
+          <Parameter name="region" type="string" value="surface domain" />
+          <Parameter name="functional" type="string" value="average" />
+          <Parameter name="location name" type="string" value="cell" />
+        </ParameterList> 
+        <ParameterList name="incoming longwave radiation [W m^-2]" type="ParameterList">
+          <Parameter name="variable" type="string" value="surface-incoming_longwave_radiation" />
           <Parameter name="region" type="string" value="surface domain" />
           <Parameter name="functional" type="string" value="average" />
           <Parameter name="location name" type="string" value="cell" />

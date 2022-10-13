@@ -1019,6 +1019,10 @@
       <ParameterList name="surface-thaw_depth" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="thaw depth" />
       </ParameterList>
+
+      <ParameterList name="surface-lw" type="ParameterList">
+        <Parameter name="field evaluator type" type="string" value="thaw depth" />
+      </ParameterList>
  
       <ParameterList name="surface-water_table_depth" type="ParameterList">
         <Parameter name="field evaluator type" type="string" value="water table depth" />
@@ -1101,19 +1105,19 @@
           <Parameter name="functional" type="string" value="average" />
           <Parameter name="location name" type="string" value="cell" />
         </ParameterList>
-        <!--<ParameterList name="incoming shortwave radiation [W m^-2]" type="ParameterList">
-          <Parameter name="variable" type="string" value="surface-incoming shortwave radiation" />
+        <ParameterList name="incoming shortwave radiation [W m^-2]" type="ParameterList">
+          <Parameter name="variable" type="string" value="surface-incoming_shortwave_radiation" />
           <Parameter name="region" type="string" value="surface domain" />
           <Parameter name="functional" type="string" value="average" />
           <Parameter name="location name" type="string" value="cell" />
         </ParameterList> 
-        <ParameterList name="outgoing shortwave radiation [W m^-2]" type="ParameterList">
-          <Parameter name="variable" type="string" value="surface-qE_sw_out" />
+        <ParameterList name="incoming longwave radiation [W m^-2]" type="ParameterList">
+          <Parameter name="variable" type="string" value="surface-incoming_longwave_radiation" />
           <Parameter name="region" type="string" value="surface domain" />
           <Parameter name="functional" type="string" value="average" />
           <Parameter name="location name" type="string" value="cell" />
         </ParameterList>
-        <ParameterList name="incoming longwave radiation [W m^-2]" type="ParameterList">
+        <!--<ParameterList name="incoming longwave radiation [W m^-2]" type="ParameterList">
           <Parameter name="variable" type="string" value="surface-qE_lw_in" />
           <Parameter name="region" type="string" value="surface domain" />
           <Parameter name="functional" type="string" value="average" />
