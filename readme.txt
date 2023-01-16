@@ -17,3 +17,6 @@ Basic template files are stored here.
 8. Reference files (8_ref): Relevant reference materials for better understanding the topic. It includes presentations, articles, images .. etc.
 9. Tables and figures for first article (9_article1_FigsTables): A jupyter notebook is used to prepare the tables and figures that are going to be used in the first article. The tables and figures are also stored in the folder. 
 10. Final simulation (10_finalsim): This folder contains the simulations that are carried out for one year with cyclic average data (as there is no other yearly data) to conduct a final comparison analysis after validation.
+
+
+An article is currently under the process of submission, until the article is published, the github repository needs to be cited as - Bangalore Lakshmiprasad, R., Graf, T., Zhang, F., Xiao, X., and Coon, E. T.: A comparison study of process complexity in permafrost dominated regions , EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-7266, https://doi.org/10.5194/egusphere-egu22-7266, 2022.
