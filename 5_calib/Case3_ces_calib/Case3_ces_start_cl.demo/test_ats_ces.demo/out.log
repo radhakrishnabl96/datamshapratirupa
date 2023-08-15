@@ -1,0 +1,1060 @@
+Simulation Driver  |  ======================> dumping parameter list <======================
+Simulation Driver  |  <ParameterList name="ANONYMOUS">
+Simulation Driver  |    <ParameterList id="15" name="mesh">
+Simulation Driver  |      <ParameterList id="6" name="domain">
+Simulation Driver  |        <Parameter docString="" id="0" isDefault="false" isUsed="true" name="mesh type" type="string" value="generate mesh"/>
+Simulation Driver  |        <Parameter docString="" id="1" isDefault="false" isUsed="true" name="build columns from set" type="string" value="surface face"/>
+Simulation Driver  |        <ParameterList id="5" name="generate mesh parameters">
+Simulation Driver  |          <Parameter docString="" id="2" isDefault="false" isUsed="true" name="number of cells" type="Array(int)" value="{1, 1, 400}"/>
+Simulation Driver  |          <Parameter docString="" id="3" isDefault="false" isUsed="true" name="domain low coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 0.00000000000000000e+00}"/>
+Simulation Driver  |          <Parameter docString="" id="4" isDefault="false" isUsed="true" name="domain high coordinate" type="Array(double)" value="{1.00000000000000000e+00, 1.00000000000000000e+00, 4.00000000000000000e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="10" name="surface">
+Simulation Driver  |        <Parameter docString="" id="7" isDefault="false" isUsed="true" name="mesh type" type="string" value="surface"/>
+Simulation Driver  |        <ParameterList id="9" name="surface parameters">
+Simulation Driver  |          <Parameter docString="" id="8" isDefault="false" isUsed="true" name="surface sideset name" type="string" value="surface face"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="14" name="snow">
+Simulation Driver  |        <Parameter docString="" id="11" isDefault="false" isUsed="true" name="mesh type" type="string" value="aliased"/>
+Simulation Driver  |        <ParameterList id="13" name="aliased parameters">
+Simulation Driver  |          <Parameter docString="" id="12" isDefault="false" isUsed="true" name="target" type="string" value="surface"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |    </ParameterList>
+Simulation Driver  |    <ParameterList id="81" name="regions">
+Simulation Driver  |      <ParameterList id="17" name="domain">
+Simulation Driver  |        <ParameterList id="16" name="region: all"/>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="19" name="surface domain">
+Simulation Driver  |        <ParameterList id="18" name="region: all"/>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="23" name="subsurface domain bedrock">
+Simulation Driver  |        <ParameterList id="22" name="region: box">
+Simulation Driver  |          <Parameter docString="" id="20" isDefault="false" isUsed="true" name="low coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 0.00000000000000000e+00}"/>
+Simulation Driver  |          <Parameter docString="" id="21" isDefault="false" isUsed="true" name="high coordinate" type="Array(double)" value="{1.00000000000000000e+00, 1.00000000000000000e+00, 2.00000000000000000e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="27" name="subsurface domain mineral">
+Simulation Driver  |        <ParameterList id="26" name="region: box">
+Simulation Driver  |          <Parameter docString="" id="24" isDefault="false" isUsed="true" name="low coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 2.00000000000000000e+01}"/>
+Simulation Driver  |          <Parameter docString="" id="25" isDefault="false" isUsed="true" name="high coordinate" type="Array(double)" value="{1.00000000000000000e+00, 1.00000000000000000e+00, 3.97000000000000028e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="31" name="subsurface domain peat">
+Simulation Driver  |        <ParameterList id="30" name="region: box">
+Simulation Driver  |          <Parameter docString="" id="28" isDefault="false" isUsed="true" name="low coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.97000000000000028e+01}"/>
+Simulation Driver  |          <Parameter docString="" id="29" isDefault="false" isUsed="true" name="high coordinate" type="Array(double)" value="{1.00000000000000000e+00, 1.00000000000000000e+00, 4.00000000000000000e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="35" name="surface face">
+Simulation Driver  |        <ParameterList id="34" name="region: plane">
+Simulation Driver  |          <Parameter docString="" id="32" isDefault="false" isUsed="true" name="point" type="Array(double)" value="{5.00000000000000000e-01, 5.00000000000000000e-01, 4.00000000000000000e+01}"/>
+Simulation Driver  |          <Parameter docString="" id="33" isDefault="false" isUsed="true" name="normal" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 1.00000000000000000e+00}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="39" name="bottom face">
+Simulation Driver  |        <ParameterList id="38" name="region: plane">
+Simulation Driver  |          <Parameter docString="" id="36" isDefault="false" isUsed="true" name="point" type="Array(double)" value="{5.00000000000000000e-01, 5.00000000000000000e-01, 0.00000000000000000e+00}"/>
+Simulation Driver  |          <Parameter docString="" id="37" isDefault="false" isUsed="true" name="normal" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, -1.00000000000000000e+00}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="42" name="subsurface point -0.01">
+Simulation Driver  |        <ParameterList id="41" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="40" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.99900000000000020e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="45" name="subsurface point -0.04">
+Simulation Driver  |        <ParameterList id="44" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="43" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.99600000000000009e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="48" name="subsurface point -0.1">
+Simulation Driver  |        <ParameterList id="47" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="46" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.98999999999999986e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="51" name="subsurface point -0.2">
+Simulation Driver  |        <ParameterList id="50" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="49" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.97999999999999972e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="54" name="subsurface point -0.4">
+Simulation Driver  |        <ParameterList id="53" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="52" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.96000000000000014e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="57" name="subsurface point -0.8">
+Simulation Driver  |        <ParameterList id="56" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="55" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.92000000000000028e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="60" name="subsurface point -1.2">
+Simulation Driver  |        <ParameterList id="59" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="58" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.87999999999999972e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="63" name="subsurface point -1.6">
+Simulation Driver  |        <ParameterList id="62" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="61" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.83999999999999986e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="66" name="subsurface point -5.0">
+Simulation Driver  |        <ParameterList id="65" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="64" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.50000000000000000e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="69" name="subsurface point -10.0">
+Simulation Driver  |        <ParameterList id="68" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="67" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 3.00000000000000000e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="72" name="subsurface point -20.0">
+Simulation Driver  |        <ParameterList id="71" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="70" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 2.00000000000000000e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="75" name="subsurface point -30.0">
+Simulation Driver  |        <ParameterList id="74" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="73" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 1.00000000000000000e+01}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="78" name="subsurface point -40.0">
+Simulation Driver  |        <ParameterList id="77" name="region: point">
+Simulation Driver  |          <Parameter docString="" id="76" isDefault="false" isUsed="true" name="coordinate" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, 0.00000000000000000e+00}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="80" name="surface outlet">
+Simulation Driver  |        <ParameterList id="79" name="region: boundary"/>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |    </ParameterList>
+Simulation Driver  |    <ParameterList id="101" name="cycle driver">
+Simulation Driver  |      <Parameter docString="" id="82" isDefault="false" isUsed="true" name="start time" type="double" value="0.00000000000000000e+00"/>
+Simulation Driver  |      <Parameter docString="" id="83" isDefault="false" isUsed="true" name="start time units" type="string" value="d"/>
+Simulation Driver  |      <Parameter docString="" id="84" isDefault="false" isUsed="true" name="end time" type="double" value="3.66000000000000000e+02"/>
+Simulation Driver  |      <Parameter docString="" id="85" isDefault="false" isUsed="true" name="end time units" type="string" value="d"/>
+Simulation Driver  |      <ParameterList id="100" name="PK tree">
+Simulation Driver  |        <ParameterList id="99" name="top level MPC">
+Simulation Driver  |          <Parameter docString="" id="86" isDefault="false" isUsed="true" name="PK type" type="string" value="strong MPC"/>
+Simulation Driver  |          <ParameterList id="88" name="SEB">
+Simulation Driver  |            <Parameter docString="" id="87" isDefault="false" isUsed="true" name="PK type" type="string" value="surface balance implicit subgrid"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="98" name="permafrost surface and subsurface">
+Simulation Driver  |            <Parameter docString="" id="89" isDefault="false" isUsed="true" name="PK type" type="string" value="permafrost model"/>
+Simulation Driver  |            <ParameterList id="91" name="subsurface flow">
+Simulation Driver  |              <Parameter docString="" id="90" isDefault="false" isUsed="true" name="PK type" type="string" value="permafrost flow"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="93" name="surface flow">
+Simulation Driver  |              <Parameter docString="" id="92" isDefault="false" isUsed="true" name="PK type" type="string" value="overland flow with ice"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="95" name="subsurface energy">
+Simulation Driver  |              <Parameter docString="" id="94" isDefault="false" isUsed="true" name="PK type" type="string" value="three-phase energy"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="97" name="surface energy">
+Simulation Driver  |              <Parameter docString="" id="96" isDefault="false" isUsed="true" name="PK type" type="string" value="surface energy"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |    </ParameterList>
+Simulation Driver  |    <ParameterList id="337" name="PKs">
+Simulation Driver  |      <ParameterList id="132" name="top level MPC">
+Simulation Driver  |        <Parameter docString="" id="102" isDefault="false" isUsed="true" name="PK type" type="string" value="strong MPC"/>
+Simulation Driver  |        <Parameter docString="" id="103" isDefault="false" isUsed="true" name="PKs order" type="Array(string)" value="{SEB, permafrost surface and subsurface}"/>
+Simulation Driver  |        <ParameterList id="105" name="verbose object">
+Simulation Driver  |          <Parameter docString="" id="104" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="131" name="time integrator">
+Simulation Driver  |          <Parameter docString="" id="106" isDefault="false" isUsed="true" name="extrapolate initial guess" type="bool" value="true"/>
+Simulation Driver  |          <Parameter docString="" id="107" isDefault="false" isUsed="true" name="solver type" type="string" value="nka_bt_ats"/>
+Simulation Driver  |          <Parameter docString="" id="108" isDefault="false" isUsed="true" name="timestep controller type" type="string" value="smarter"/>
+Simulation Driver  |          <ParameterList id="119" name="nka_bt_ats parameters">
+Simulation Driver  |            <Parameter docString="" id="109" isDefault="false" isUsed="true" name="nka lag iterations" type="int" value="2"/>
+Simulation Driver  |            <Parameter docString="" id="110" isDefault="false" isUsed="true" name="max backtrack steps" type="int" value="5"/>
+Simulation Driver  |            <Parameter docString="" id="111" isDefault="false" isUsed="true" name="backtrack lag" type="int" value="0"/>
+Simulation Driver  |            <Parameter docString="" id="112" isDefault="false" isUsed="true" name="backtrack factor" type="double" value="5.00000000000000000e-01"/>
+Simulation Driver  |            <Parameter docString="" id="113" isDefault="false" isUsed="true" name="backtrack tolerance" type="double" value="1.00000000000000005e-04"/>
+Simulation Driver  |            <Parameter docString="" id="114" isDefault="false" isUsed="true" name="nonlinear tolerance" type="double" value="9.99999999999999955e-07"/>
+Simulation Driver  |            <Parameter docString="" id="115" isDefault="false" isUsed="true" name="diverged tolerance" type="double" value="1.00000000000000000e+05"/>
+Simulation Driver  |            <Parameter docString="" id="116" isDefault="false" isUsed="true" name="limit iterations" type="int" value="21"/>
+Simulation Driver  |            <ParameterList id="118" name="verbose object">
+Simulation Driver  |              <Parameter docString="" id="117" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="121" name="verbose object">
+Simulation Driver  |            <Parameter docString="" id="120" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="130" name="timestep controller smarter parameters">
+Simulation Driver  |            <Parameter docString="" id="122" isDefault="false" isUsed="true" name="max iterations" type="int" value="18"/>
+Simulation Driver  |            <Parameter docString="" id="123" isDefault="false" isUsed="true" name="min iterations" type="int" value="10"/>
+Simulation Driver  |            <Parameter docString="" id="124" isDefault="false" isUsed="true" name="time step reduction factor" type="double" value="5.00000000000000000e-01"/>
+Simulation Driver  |            <Parameter docString="" id="125" isDefault="false" isUsed="true" name="time step increase factor" type="double" value="1.50000000000000000e+00"/>
+Simulation Driver  |            <Parameter docString="" id="126" isDefault="false" isUsed="true" name="max time step" type="double" value="1.00000000000000000e+08"/>
+Simulation Driver  |            <Parameter docString="" id="127" isDefault="false" isUsed="true" name="min time step" type="double" value="1.00000000000000004e-10"/>
+Simulation Driver  |            <Parameter docString="" id="128" isDefault="false" isUsed="true" name="growth wait after fail" type="int" value="2"/>
+Simulation Driver  |            <Parameter docString="" id="129" isDefault="false" isUsed="true" name="count before increasing increase factor" type="int" value="2"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="173" name="permafrost surface and subsurface">
+Simulation Driver  |        <Parameter docString="" id="133" isDefault="false" isUsed="true" name="PK type" type="string" value="permafrost model"/>
+Simulation Driver  |        <Parameter docString="" id="134" isDefault="false" isUsed="true" name="PKs order" type="Array(string)" value="{subsurface flow, subsurface energy, surface flow, surface energy}"/>
+Simulation Driver  |        <Parameter docString="" id="135" isDefault="false" isUsed="true" name="preconditioner type" type="string" value="picard"/>
+Simulation Driver  |        <Parameter docString="" id="136" isDefault="false" isUsed="true" name="supress Jacobian terms: d div q / dT" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="137" isDefault="false" isUsed="true" name="supress Jacobian terms: d div surface q / dT" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="138" isDefault="false" isUsed="true" name="supress Jacobian terms: d div K grad T / dp" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="139" isDefault="false" isUsed="true" name="supress Jacobian terms: d div hq / dp,T" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="140" isDefault="false" isUsed="true" name="dump preconditioner" type="bool" value="false"/>
+Simulation Driver  |        <ParameterList id="142" name="verbose object">
+Simulation Driver  |          <Parameter docString="" id="141" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="148" name="ewc delegate">
+Simulation Driver  |          <Parameter docString="" id="143" isDefault="false" isUsed="true" name="predictor type" type="string" value="smart ewc"/>
+Simulation Driver  |          <Parameter docString="" id="144" isDefault="false" isUsed="true" name="use pc_ice to determine sfc" type="bool" value="true"/>
+Simulation Driver  |          <Parameter docString="" id="145" isDefault="false" isUsed="true" name="freeze-thaw cusp width [K]" type="double" value="1.00000000000000000e+00"/>
+Simulation Driver  |          <ParameterList id="147" name="verbose object">
+Simulation Driver  |            <Parameter docString="" id="146" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="153" name="water delegate">
+Simulation Driver  |          <Parameter docString="" id="149" isDefault="false" isUsed="true" name="modify predictor damp and cap the water spurt" type="bool" value="true"/>
+Simulation Driver  |          <Parameter docString="" id="150" isDefault="false" isUsed="true" name="damp and cap the water spurt" type="bool" value="true"/>
+Simulation Driver  |          <Parameter docString="" id="151" isDefault="false" isUsed="true" name="damp and cap the saturated spurt" type="bool" value="true"/>
+Simulation Driver  |          <Parameter docString="" id="152" isDefault="false" isUsed="true" name="cap over atmospheric" type="double" value="1.00000000000000005e-04"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="172" name="inverse">
+Simulation Driver  |          <Parameter docString="" id="154" isDefault="false" isUsed="true" name="preconditioning method" type="string" value="boomer amg"/>
+Simulation Driver  |          <Parameter docString="" id="155" isDefault="false" isUsed="true" name="iterative method" type="string" value="gmres"/>
+Simulation Driver  |          <ParameterList id="162" name="boomer amg parameters">
+Simulation Driver  |            <Parameter docString="" id="156" isDefault="false" isUsed="true" name="cycle applications" type="int" value="1"/>
+Simulation Driver  |            <Parameter docString="" id="157" isDefault="false" isUsed="true" name="smoother sweeps" type="int" value="1"/>
+Simulation Driver  |            <Parameter docString="" id="158" isDefault="false" isUsed="true" name="strong threshold" type="double" value="6.50000000000000022e-01"/>
+Simulation Driver  |            <Parameter docString="" id="159" isDefault="false" isUsed="true" name="tolerance" type="double" value="0.00000000000000000e+00"/>
+Simulation Driver  |            <Parameter docString="" id="160" isDefault="false" isUsed="true" name="number of functions" type="int" value="2"/>
+Simulation Driver  |            <Parameter docString="" id="161" isDefault="false" isUsed="true" name="verbosity" type="int" value="0"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="164" name="verbose object">
+Simulation Driver  |            <Parameter docString="" id="163" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="171" name="gmres parameters">
+Simulation Driver  |            <Parameter docString="" id="165" isDefault="false" isUsed="true" name="preconditioning strategy" type="string" value="left"/>
+Simulation Driver  |            <Parameter docString="" id="166" isDefault="false" isUsed="true" name="error tolerance" type="double" value="9.99999999999999955e-07"/>
+Simulation Driver  |            <Parameter docString="" id="167" isDefault="false" isUsed="true" name="convergence criteria" type="Array(string)" value="{relative residual, make one iteration}"/>
+Simulation Driver  |            <Parameter docString="" id="168" isDefault="false" isUsed="true" name="maximum number of iteration" type="int" value="80"/>
+Simulation Driver  |            <ParameterList id="170" name="verbose object">
+Simulation Driver  |              <Parameter docString="" id="169" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="224" name="subsurface flow">
+Simulation Driver  |        <Parameter docString="" id="174" isDefault="false" isUsed="true" name="PK type" type="string" value="permafrost flow"/>
+Simulation Driver  |        <Parameter docString="" id="175" isDefault="false" isUsed="true" name="primary variable key" type="string" value="pressure"/>
+Simulation Driver  |        <Parameter docString="" id="176" isDefault="false" isUsed="true" name="domain name" type="string" value="domain"/>
+Simulation Driver  |        <Parameter docString="" id="177" isDefault="false" isUsed="true" name="source term" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="178" isDefault="false" isUsed="true" name="source key" type="string" value="water_source"/>
+Simulation Driver  |        <Parameter docString="" id="179" isDefault="false" isUsed="true" name="source term is differentiable" type="bool" value="false"/>
+Simulation Driver  |        <Parameter docString="" id="180" isDefault="false" isUsed="true" name="permeability rescaling" type="double" value="1.00000000000000000e+07"/>
+Simulation Driver  |        <Parameter docString="" id="181" isDefault="false" isUsed="true" name="relative permeability method" type="string" value="upwind with Darcy flux"/>
+Simulation Driver  |        <Parameter docString="" id="182" isDefault="false" isUsed="true" name="surface rel perm strategy" type="string" value="unsaturated"/>
+Simulation Driver  |        <Parameter docString="" id="183" isDefault="false" isUsed="true" name="max valid change in saturation in a time step [-]" type="double" value="1.00000000000000006e-01"/>
+Simulation Driver  |        <Parameter docString="" id="184" isDefault="false" isUsed="true" name="max valid change in ice saturation in a time step [-]" type="double" value="1.00000000000000006e-01"/>
+Simulation Driver  |        <Parameter docString="" id="185" isDefault="false" isUsed="true" name="initial time step" type="double" value="8.64000000000000000e+04"/>
+Simulation Driver  |        <ParameterList id="187" name="verbose object">
+Simulation Driver  |          <Parameter docString="" id="186" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="189" name="diffusion">
+Simulation Driver  |          <Parameter docString="" id="188" isDefault="false" isUsed="true" name="discretization primary" type="string" value="mfd: two-point flux approximation"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="191" name="diffusion preconditioner">
+Simulation Driver  |          <Parameter docString="" id="190" isDefault="false" isUsed="true" name="include Newton correction" type="bool" value="true"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="192" name="boundary conditions"/>
+Simulation Driver  |        <ParameterList id="194" name="initial condition">
+Simulation Driver  |          <Parameter docString="" id="193" isDefault="false" isUsed="true" name="restart file" type="string" value="../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="223" name="water retention evaluator">
+Simulation Driver  |          <Parameter docString="" id="195" isDefault="false" isUsed="true" name="minimum rel perm cutoff" type="double" value="0.00000000000000000e+00"/>
+Simulation Driver  |          <Parameter docString="" id="196" isDefault="false" isUsed="true" name="use surface rel perm" type="bool" value="true"/>
+Simulation Driver  |          <Parameter docString="" id="197" isDefault="false" isUsed="true" name="liquid-ice capillary pressure key" type="string" value="capillary_pressure_liq_ice"/>
+Simulation Driver  |          <ParameterList id="219" name="WRM parameters">
+Simulation Driver  |            <ParameterList id="204" name="peat">
+Simulation Driver  |              <Parameter docString="" id="198" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain peat"/>
+Simulation Driver  |              <Parameter docString="" id="199" isDefault="false" isUsed="true" name="WRM Type" type="string" value="van Genuchten"/>
+Simulation Driver  |              <Parameter docString="" id="200" isDefault="false" isUsed="true" name="van Genuchten alpha [Pa^-1]" type="double" value="1.00000000000000002e-02"/>
+Simulation Driver  |              <Parameter docString="" id="201" isDefault="false" isUsed="true" name="van Genuchten n [-]" type="double" value="1.50000000000000000e+00"/>
+Simulation Driver  |              <Parameter docString="" id="202" isDefault="false" isUsed="true" name="residual saturation [-]" type="double" value="1.00000000000000006e-01"/>
+Simulation Driver  |              <Parameter docString="" id="203" isDefault="false" isUsed="true" name="smoothing interval width [saturation]" type="double" value="1.00000000000000006e-01"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="211" name="mineral">
+Simulation Driver  |              <Parameter docString="" id="205" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain mineral"/>
+Simulation Driver  |              <Parameter docString="" id="206" isDefault="false" isUsed="true" name="WRM Type" type="string" value="van Genuchten"/>
+Simulation Driver  |              <Parameter docString="" id="207" isDefault="false" isUsed="true" name="van Genuchten alpha [Pa^-1]" type="double" value="1.82491440000000010e-03"/>
+Simulation Driver  |              <Parameter docString="" id="208" isDefault="false" isUsed="true" name="van Genuchten n [-]" type="double" value="1.48459000000000008e+00"/>
+Simulation Driver  |              <Parameter docString="" id="209" isDefault="false" isUsed="true" name="residual saturation [-]" type="double" value="1.56116000000000005e-01"/>
+Simulation Driver  |              <Parameter docString="" id="210" isDefault="false" isUsed="true" name="smoothing interval width [saturation]" type="double" value="1.00000000000000006e-01"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="218" name="bedrock">
+Simulation Driver  |              <Parameter docString="" id="212" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain bedrock"/>
+Simulation Driver  |              <Parameter docString="" id="213" isDefault="false" isUsed="true" name="WRM Type" type="string" value="van Genuchten"/>
+Simulation Driver  |              <Parameter docString="" id="214" isDefault="false" isUsed="true" name="van Genuchten alpha [Pa^-1]" type="double" value="2.99999999999999989e-02"/>
+Simulation Driver  |              <Parameter docString="" id="215" isDefault="false" isUsed="true" name="van Genuchten n [-]" type="double" value="2.00000000000000000e+00"/>
+Simulation Driver  |              <Parameter docString="" id="216" isDefault="false" isUsed="true" name="residual saturation [-]" type="double" value="5.00000000000000028e-02"/>
+Simulation Driver  |              <Parameter docString="" id="217" isDefault="false" isUsed="true" name="smoothing interval width [saturation]" type="double" value="1.00000000000000006e-01"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="222" name="permafrost model parameters">
+Simulation Driver  |            <Parameter docString="" id="220" isDefault="false" isUsed="true" name="permafrost WRM type" type="string" value="fpd permafrost model"/>
+Simulation Driver  |            <Parameter docString="" id="221" isDefault="false" isUsed="true" name="minimum dsi_dpressure magnitude" type="double" value="9.99999999999999980e-13"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="246" name="surface flow">
+Simulation Driver  |        <Parameter docString="" id="225" isDefault="false" isUsed="true" name="PK type" type="string" value="overland flow with ice"/>
+Simulation Driver  |        <Parameter docString="" id="226" isDefault="false" isUsed="true" name="domain name" type="string" value="surface"/>
+Simulation Driver  |        <Parameter docString="" id="227" isDefault="false" isUsed="true" name="primary variable key" type="string" value="surface-pressure"/>
+Simulation Driver  |        <Parameter docString="" id="228" isDefault="false" isUsed="true" name="source term" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="229" isDefault="false" isUsed="true" name="source key" type="string" value="surface-water_source"/>
+Simulation Driver  |        <Parameter docString="" id="230" isDefault="false" isUsed="true" name="source term is differentiable" type="bool" value="false"/>
+Simulation Driver  |        <Parameter docString="" id="231" isDefault="false" isUsed="true" name="mass source in meters" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="232" isDefault="false" isUsed="true" name="initial time step" type="double" value="8.64000000000000000e+04"/>
+Simulation Driver  |        <ParameterList id="234" name="verbose object">
+Simulation Driver  |          <Parameter docString="" id="233" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="236" name="diffusion">
+Simulation Driver  |          <Parameter docString="" id="235" isDefault="false" isUsed="true" name="discretization primary" type="string" value="fv: default"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="243" name="boundary conditions">
+Simulation Driver  |          <ParameterList id="242" name="seepage face head">
+Simulation Driver  |            <ParameterList id="241" name="surface outlet">
+Simulation Driver  |              <Parameter docString="" id="237" isDefault="false" isUsed="true" name="regions" type="Array(string)" value="{surface outlet}"/>
+Simulation Driver  |              <ParameterList id="240" name="boundary head">
+Simulation Driver  |                <ParameterList id="239" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="238" isDefault="false" isUsed="true" name="value" type="double" value="0.00000000000000000e+00"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="245" name="initial condition">
+Simulation Driver  |          <Parameter docString="" id="244" isDefault="false" isUsed="true" name="initialize surface head from subsurface" type="bool" value="true"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="295" name="subsurface energy">
+Simulation Driver  |        <Parameter docString="" id="247" isDefault="false" isUsed="true" name="PK type" type="string" value="three-phase energy"/>
+Simulation Driver  |        <Parameter docString="" id="248" isDefault="false" isUsed="true" name="domain name" type="string" value="domain"/>
+Simulation Driver  |        <Parameter docString="" id="249" isDefault="false" isUsed="true" name="primary variable key" type="string" value="temperature"/>
+Simulation Driver  |        <Parameter docString="" id="250" isDefault="false" isUsed="true" name="source term" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="251" isDefault="false" isUsed="true" name="source key" type="string" value="total_energy_source"/>
+Simulation Driver  |        <Parameter docString="" id="252" isDefault="false" isUsed="true" name="source term is differentiable" type="bool" value="false"/>
+Simulation Driver  |        <Parameter docString="" id="253" isDefault="false" isUsed="true" name="initial time step" type="double" value="8.64000000000000000e+04"/>
+Simulation Driver  |        <Parameter docString="" id="254" isDefault="false" isUsed="true" name="include thermal advection" type="bool" value="false"/>
+Simulation Driver  |        <Parameter docString="" id="255" isDefault="false" isUsed="true" name="explicit advection" type="bool" value="false"/>
+Simulation Driver  |        <Parameter docString="" id="256" isDefault="false" isUsed="true" name="supress advective terms in preconditioner" type="bool" value="true"/>
+Simulation Driver  |        <ParameterList id="258" name="verbose object">
+Simulation Driver  |          <Parameter docString="" id="257" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="260" name="diffusion">
+Simulation Driver  |          <Parameter docString="" id="259" isDefault="false" isUsed="true" name="discretization primary" type="string" value="mfd: two-point flux approximation"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="267" name="boundary conditions">
+Simulation Driver  |          <ParameterList id="266" name="temperature">
+Simulation Driver  |            <ParameterList id="265" name="bottom">
+Simulation Driver  |              <Parameter docString="" id="261" isDefault="false" isUsed="true" name="regions" type="Array(string)" value="{bottom face}"/>
+Simulation Driver  |              <ParameterList id="264" name="boundary temperature">
+Simulation Driver  |                <ParameterList id="263" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="262" isDefault="false" isUsed="true" name="value" type="double" value="2.68449999999999989e+02"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="269" name="initial condition">
+Simulation Driver  |          <Parameter docString="" id="268" isDefault="false" isUsed="true" name="restart file" type="string" value="../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="292" name="thermal conductivity evaluator">
+Simulation Driver  |          <ParameterList id="291" name="thermal conductivity parameters">
+Simulation Driver  |            <ParameterList id="276" name="peat">
+Simulation Driver  |              <Parameter docString="" id="270" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain peat"/>
+Simulation Driver  |              <Parameter docString="" id="271" isDefault="false" isUsed="true" name="thermal conductivity type" type="string" value="three-phase wet/dry"/>
+Simulation Driver  |              <Parameter docString="" id="272" isDefault="false" isUsed="true" name="thermal conductivity, saturated (unfrozen) [W m^-1 K^-1]" type="double" value="4.91954999999999976e-01"/>
+Simulation Driver  |              <Parameter docString="" id="273" isDefault="false" isUsed="true" name="thermal conductivity, dry [W m^-1 K^-1]" type="double" value="1.20658000000000001e-01"/>
+Simulation Driver  |              <Parameter docString="" id="274" isDefault="false" isUsed="true" name="unsaturated alpha frozen [-]" type="double" value="1.49655000000000005e+00"/>
+Simulation Driver  |              <Parameter docString="" id="275" isDefault="false" isUsed="true" name="unsaturated alpha unfrozen [-]" type="double" value="4.77138000000000007e-01"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="283" name="mineral">
+Simulation Driver  |              <Parameter docString="" id="277" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain mineral"/>
+Simulation Driver  |              <Parameter docString="" id="278" isDefault="false" isUsed="true" name="thermal conductivity type" type="string" value="three-phase wet/dry"/>
+Simulation Driver  |              <Parameter docString="" id="279" isDefault="false" isUsed="true" name="thermal conductivity, saturated (unfrozen) [W m^-1 K^-1]" type="double" value="9.38163999999999998e-01"/>
+Simulation Driver  |              <Parameter docString="" id="280" isDefault="false" isUsed="true" name="thermal conductivity, dry [W m^-1 K^-1]" type="double" value="9.84400000000000053e-01"/>
+Simulation Driver  |              <Parameter docString="" id="281" isDefault="false" isUsed="true" name="unsaturated alpha frozen [-]" type="double" value="1.49909000000000003e+00"/>
+Simulation Driver  |              <Parameter docString="" id="282" isDefault="false" isUsed="true" name="unsaturated alpha unfrozen [-]" type="double" value="6.99200000000000044e-01"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="290" name="bedrock">
+Simulation Driver  |              <Parameter docString="" id="284" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain bedrock"/>
+Simulation Driver  |              <Parameter docString="" id="285" isDefault="false" isUsed="true" name="thermal conductivity type" type="string" value="three-phase wet/dry"/>
+Simulation Driver  |              <Parameter docString="" id="286" isDefault="false" isUsed="true" name="thermal conductivity, saturated (unfrozen) [W m^-1 K^-1]" type="double" value="1.00000000000000000e+00"/>
+Simulation Driver  |              <Parameter docString="" id="287" isDefault="false" isUsed="true" name="thermal conductivity, dry [W m^-1 K^-1]" type="double" value="2.89999999999999980e-01"/>
+Simulation Driver  |              <Parameter docString="" id="288" isDefault="false" isUsed="true" name="unsaturated alpha frozen [-]" type="double" value="1.00000000000000000e+00"/>
+Simulation Driver  |              <Parameter docString="" id="289" isDefault="false" isUsed="true" name="unsaturated alpha unfrozen [-]" type="double" value="5.00000000000000000e-01"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="294" name="enthalpy evaluator">
+Simulation Driver  |          <Parameter docString="" id="293" isDefault="false" isUsed="true" name="include work term" type="bool" value="false"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="321" name="surface energy">
+Simulation Driver  |        <Parameter docString="" id="296" isDefault="false" isUsed="true" name="PK type" type="string" value="surface energy"/>
+Simulation Driver  |        <Parameter docString="" id="297" isDefault="false" isUsed="true" name="domain name" type="string" value="surface"/>
+Simulation Driver  |        <Parameter docString="" id="298" isDefault="false" isUsed="true" name="primary variable key" type="string" value="surface-temperature"/>
+Simulation Driver  |        <Parameter docString="" id="299" isDefault="false" isUsed="true" name="source term" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="300" isDefault="false" isUsed="true" name="source key" type="string" value="surface-total_energy_source"/>
+Simulation Driver  |        <Parameter docString="" id="301" isDefault="false" isUsed="true" name="source term is differentiable" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="302" isDefault="false" isUsed="true" name="source term finite difference" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="303" isDefault="false" isUsed="true" name="flux key" type="string" value="surface-mass_flux"/>
+Simulation Driver  |        <Parameter docString="" id="304" isDefault="false" isUsed="true" name="include thermal advection" type="bool" value="false"/>
+Simulation Driver  |        <Parameter docString="" id="305" isDefault="false" isUsed="true" name="explicit advection" type="bool" value="false"/>
+Simulation Driver  |        <Parameter docString="" id="306" isDefault="false" isUsed="true" name="supress advective terms in preconditioner" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="307" isDefault="false" isUsed="true" name="upwind conductivity method" type="string" value="arithmetic mean"/>
+Simulation Driver  |        <Parameter docString="" id="308" isDefault="false" isUsed="true" name="initial time step" type="double" value="8.64000000000000000e+04"/>
+Simulation Driver  |        <ParameterList id="310" name="verbose object">
+Simulation Driver  |          <Parameter docString="" id="309" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="312" name="diffusion">
+Simulation Driver  |          <Parameter docString="" id="311" isDefault="false" isUsed="true" name="discretization primary" type="string" value="fv: default"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="313" name="boundary conditions"/>
+Simulation Driver  |        <ParameterList id="315" name="initial condition">
+Simulation Driver  |          <Parameter docString="" id="314" isDefault="false" isUsed="true" name="initialize surface temperature from subsurface" type="bool" value="true"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="318" name="thermal conductivity evaluator">
+Simulation Driver  |          <ParameterList id="317" name="thermal conductivity parameters">
+Simulation Driver  |            <Parameter docString="" id="316" isDefault="false" isUsed="true" name="minimum thermal conductivity" type="double" value="1.00000000000000008e-15"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="320" name="enthalpy evaluator">
+Simulation Driver  |          <Parameter docString="" id="319" isDefault="false" isUsed="true" name="include work term" type="bool" value="false"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="336" name="SEB">
+Simulation Driver  |        <Parameter docString="" id="322" isDefault="false" isUsed="true" name="PK type" type="string" value="surface balance implicit subgrid"/>
+Simulation Driver  |        <Parameter docString="" id="323" isDefault="false" isUsed="true" name="domain name" type="string" value="snow"/>
+Simulation Driver  |        <Parameter docString="" id="324" isDefault="false" isUsed="true" name="layer name" type="string" value="snow"/>
+Simulation Driver  |        <Parameter docString="" id="325" isDefault="false" isUsed="true" name="primary variable key" type="string" value="snow-depth"/>
+Simulation Driver  |        <Parameter docString="" id="326" isDefault="false" isUsed="true" name="conserved quantity key" type="string" value="snow-water_equivalent"/>
+Simulation Driver  |        <Parameter docString="" id="327" isDefault="false" isUsed="true" name="source term" type="bool" value="true"/>
+Simulation Driver  |        <Parameter docString="" id="328" isDefault="false" isUsed="true" name="source key" type="string" value="snow-source_sink"/>
+Simulation Driver  |        <Parameter docString="" id="329" isDefault="false" isUsed="true" name="source term is differentiable" type="bool" value="false"/>
+Simulation Driver  |        <ParameterList id="331" name="verbose object">
+Simulation Driver  |          <Parameter docString="" id="330" isDefault="false" isUsed="true" name="verbosity level" type="string" value="low"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="333" name="initial condition">
+Simulation Driver  |          <Parameter docString="" id="332" isDefault="false" isUsed="true" name="restart file" type="string" value="../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="335" name="inverse">
+Simulation Driver  |          <Parameter docString="" id="334" isDefault="false" isUsed="true" name="preconditioning method" type="string" value="diagonal"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |    </ParameterList>
+Simulation Driver  |    <ParameterList id="634" name="state">
+Simulation Driver  |      <ParameterList id="619" name="field evaluators">
+Simulation Driver  |        <ParameterList id="339" name="water_content">
+Simulation Driver  |          <Parameter docString="" id="338" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="liquid+ice water content"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="344" name="molar_density_liquid">
+Simulation Driver  |          <Parameter docString="" id="340" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="eos"/>
+Simulation Driver  |          <Parameter docString="" id="341" isDefault="false" isUsed="true" name="EOS basis" type="string" value="both"/>
+Simulation Driver  |          <ParameterList id="343" name="EOS parameters">
+Simulation Driver  |            <Parameter docString="" id="342" isDefault="false" isUsed="true" name="EOS type" type="string" value="liquid water"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="351" name="molar_density_gas">
+Simulation Driver  |          <Parameter docString="" id="345" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="eos"/>
+Simulation Driver  |          <Parameter docString="" id="346" isDefault="false" isUsed="true" name="EOS basis" type="string" value="molar"/>
+Simulation Driver  |          <ParameterList id="350" name="EOS parameters">
+Simulation Driver  |            <Parameter docString="" id="347" isDefault="false" isUsed="true" name="EOS type" type="string" value="vapor in gas"/>
+Simulation Driver  |            <ParameterList id="349" name="gas EOS parameters">
+Simulation Driver  |              <Parameter docString="" id="348" isDefault="false" isUsed="true" name="EOS type" type="string" value="ideal gas"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="356" name="molar_density_ice">
+Simulation Driver  |          <Parameter docString="" id="352" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="eos"/>
+Simulation Driver  |          <Parameter docString="" id="353" isDefault="false" isUsed="true" name="EOS basis" type="string" value="molar"/>
+Simulation Driver  |          <ParameterList id="355" name="EOS parameters">
+Simulation Driver  |            <Parameter docString="" id="354" isDefault="false" isUsed="true" name="EOS type" type="string" value="ice"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="377" name="base_porosity">
+Simulation Driver  |          <Parameter docString="" id="357" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="independent variable"/>
+Simulation Driver  |          <ParameterList id="376" name="function">
+Simulation Driver  |            <ParameterList id="363" name="peat">
+Simulation Driver  |              <Parameter docString="" id="358" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain peat"/>
+Simulation Driver  |              <Parameter docString="" id="359" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="362" name="function">
+Simulation Driver  |                <ParameterList id="361" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="360" isDefault="false" isUsed="true" name="value" type="double" value="6.37390000000000012e-01"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="369" name="mineral">
+Simulation Driver  |              <Parameter docString="" id="364" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain mineral"/>
+Simulation Driver  |              <Parameter docString="" id="365" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="368" name="function">
+Simulation Driver  |                <ParameterList id="367" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="366" isDefault="false" isUsed="true" name="value" type="double" value="4.81030769999999996e-01"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="375" name="bedrock">
+Simulation Driver  |              <Parameter docString="" id="370" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain bedrock"/>
+Simulation Driver  |              <Parameter docString="" id="371" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="374" name="function">
+Simulation Driver  |                <ParameterList id="373" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="372" isDefault="false" isUsed="true" name="value" type="double" value="2.99999999999999989e-01"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="389" name="porosity">
+Simulation Driver  |          <Parameter docString="" id="378" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="compressible porosity"/>
+Simulation Driver  |          <ParameterList id="388" name="compressible porosity model parameters">
+Simulation Driver  |            <ParameterList id="381" name="peat">
+Simulation Driver  |              <Parameter docString="" id="379" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain peat"/>
+Simulation Driver  |              <Parameter docString="" id="380" isDefault="false" isUsed="true" name="pore compressibility [Pa^-1]" type="double" value="9.99999999999999955e-08"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="384" name="mineral">
+Simulation Driver  |              <Parameter docString="" id="382" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain mineral"/>
+Simulation Driver  |              <Parameter docString="" id="383" isDefault="false" isUsed="true" name="pore compressibility [Pa^-1]" type="double" value="1.00000000000000002e-08"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="387" name="bedrock">
+Simulation Driver  |              <Parameter docString="" id="385" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain bedrock"/>
+Simulation Driver  |              <Parameter docString="" id="386" isDefault="false" isUsed="true" name="pore compressibility [Pa^-1]" type="double" value="1.00000000000000006e-09"/>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="410" name="permeability">
+Simulation Driver  |          <Parameter docString="" id="390" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="independent variable"/>
+Simulation Driver  |          <ParameterList id="409" name="function">
+Simulation Driver  |            <ParameterList id="396" name="peat">
+Simulation Driver  |              <Parameter docString="" id="391" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain peat"/>
+Simulation Driver  |              <Parameter docString="" id="392" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="395" name="function">
+Simulation Driver  |                <ParameterList id="394" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="393" isDefault="false" isUsed="true" name="value" type="double" value="5.34662210000000001e-11"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="402" name="mineral">
+Simulation Driver  |              <Parameter docString="" id="397" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain mineral"/>
+Simulation Driver  |              <Parameter docString="" id="398" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="401" name="function">
+Simulation Driver  |                <ParameterList id="400" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="399" isDefault="false" isUsed="true" name="value" type="double" value="1.00000000000000003e-13"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="408" name="bedrock">
+Simulation Driver  |              <Parameter docString="" id="403" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain bedrock"/>
+Simulation Driver  |              <Parameter docString="" id="404" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="407" name="function">
+Simulation Driver  |                <ParameterList id="406" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="405" isDefault="false" isUsed="true" name="value" type="double" value="9.99999999999999999e-15"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="431" name="density_rock">
+Simulation Driver  |          <Parameter docString="" id="411" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="independent variable"/>
+Simulation Driver  |          <ParameterList id="430" name="function">
+Simulation Driver  |            <ParameterList id="417" name="peat">
+Simulation Driver  |              <Parameter docString="" id="412" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain peat"/>
+Simulation Driver  |              <Parameter docString="" id="413" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="416" name="function">
+Simulation Driver  |                <ParameterList id="415" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="414" isDefault="false" isUsed="true" name="value" type="double" value="9.00000000000000000e+02"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="423" name="mineral">
+Simulation Driver  |              <Parameter docString="" id="418" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain mineral"/>
+Simulation Driver  |              <Parameter docString="" id="419" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="422" name="function">
+Simulation Driver  |                <ParameterList id="421" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="420" isDefault="false" isUsed="true" name="value" type="double" value="1.90000000000000000e+03"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |            <ParameterList id="429" name="bedrock">
+Simulation Driver  |              <Parameter docString="" id="424" isDefault="false" isUsed="true" name="region" type="string" value="subsurface domain bedrock"/>
+Simulation Driver  |              <Parameter docString="" id="425" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="428" name="function">
+Simulation Driver  |                <ParameterList id="427" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="426" isDefault="false" isUsed="true" name="value" type="double" value="2.50000000000000000e+03"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="435" name="viscosity_liquid">
+Simulation Driver  |          <Parameter docString="" id="432" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="viscosity"/>
+Simulation Driver  |          <ParameterList id="434" name="viscosity model parameters">
+Simulation Driver  |            <Parameter docString="" id="433" isDefault="false" isUsed="true" name="viscosity relation type" type="string" value="liquid water"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="437" name="capillary_pressure_gas_liq">
+Simulation Driver  |          <Parameter docString="" id="436" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="capillary pressure, atmospheric gas over liquid"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="444" name="capillary_pressure_liq_ice">
+Simulation Driver  |          <Parameter docString="" id="438" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="capillary pressure, water over ice"/>
+Simulation Driver  |          <ParameterList id="443" name="capillary pressure of ice-water">
+Simulation Driver  |            <Parameter docString="" id="439" isDefault="false" isUsed="true" name="smoothing width [K]" type="double" value="2.00000000000000011e-01"/>
+Simulation Driver  |            <Parameter docString="" id="440" isDefault="false" isUsed="true" name="interfacial tension ice-water [mN m^-1]" type="double" value="3.31000000000000014e+01"/>
+Simulation Driver  |            <Parameter docString="" id="441" isDefault="false" isUsed="true" name="interfacial tension air-water [mN m^-1]" type="double" value="7.27000000000000028e+01"/>
+Simulation Driver  |            <Parameter docString="" id="442" isDefault="false" isUsed="true" name="latent heat [J kg^-1]" type="double" value="3.34000000000000000e+05"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="446" name="energy">
+Simulation Driver  |          <Parameter docString="" id="445" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="liquid+ice energy"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="452" name="internal_energy_liquid">
+Simulation Driver  |          <Parameter docString="" id="447" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="iem"/>
+Simulation Driver  |          <Parameter docString="" id="448" isDefault="false" isUsed="true" name="internal energy key" type="string" value="internal_energy_liquid"/>
+Simulation Driver  |          <ParameterList id="451" name="IEM parameters">
+Simulation Driver  |            <Parameter docString="" id="449" isDefault="false" isUsed="true" name="IEM type" type="string" value="linear"/>
+Simulation Driver  |            <Parameter docString="" id="450" isDefault="false" isUsed="true" name="heat capacity [J mol^-1 K^-1]" type="double" value="7.60000000000000000e+01"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="460" name="internal_energy_ice">
+Simulation Driver  |          <Parameter docString="" id="453" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="iem"/>
+Simulation Driver  |          <Parameter docString="" id="454" isDefault="false" isUsed="true" name="internal energy key" type="string" value="internal_energy_ice"/>
+Simulation Driver  |          <ParameterList id="459" name="IEM parameters">
+Simulation Driver  |            <Parameter docString="" id="455" isDefault="false" isUsed="true" name="IEM type" type="string" value="quadratic"/>
+Simulation Driver  |            <Parameter docString="" id="456" isDefault="false" isUsed="true" name="latent heat [J mol^-1]" type="double" value="-6.00786999999999989e+03"/>
+Simulation Driver  |            <Parameter docString="" id="457" isDefault="false" isUsed="true" name="heat capacity [J mol^-1 K^-1]" type="double" value="3.77841000000000022e+01"/>
+Simulation Driver  |            <Parameter docString="" id="458" isDefault="false" isUsed="true" name="quadratic b [J mol^-1 K^-2]" type="double" value="1.31931999999999994e-01"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="466" name="internal_energy_rock">
+Simulation Driver  |          <Parameter docString="" id="461" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="iem"/>
+Simulation Driver  |          <Parameter docString="" id="462" isDefault="false" isUsed="true" name="internal energy key" type="string" value="internal_energy_rock"/>
+Simulation Driver  |          <ParameterList id="465" name="IEM parameters">
+Simulation Driver  |            <Parameter docString="" id="463" isDefault="false" isUsed="true" name="IEM type" type="string" value="linear"/>
+Simulation Driver  |            <Parameter docString="" id="464" isDefault="false" isUsed="true" name="heat capacity [J kg^-1 K^-1]" type="double" value="6.20000000000000000e+02"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="468" name="surface-water_content">
+Simulation Driver  |          <Parameter docString="" id="467" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="overland pressure water content"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="470" name="surface-area_fractions">
+Simulation Driver  |          <Parameter docString="" id="469" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="area fractions, three components"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="474" name="surface-unfrozen_fraction">
+Simulation Driver  |          <Parameter docString="" id="471" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="unfrozen fraction"/>
+Simulation Driver  |          <ParameterList id="473" name="unfrozen fraction model">
+Simulation Driver  |            <Parameter docString="" id="472" isDefault="false" isUsed="true" name="transition width [K]" type="double" value="2.00000000000000011e-01"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="476" name="surface-unfrozen_effective_depth">
+Simulation Driver  |          <Parameter docString="" id="475" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="unfrozen effective depth"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="481" name="surface-molar_density_liquid">
+Simulation Driver  |          <Parameter docString="" id="477" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="eos"/>
+Simulation Driver  |          <Parameter docString="" id="478" isDefault="false" isUsed="true" name="EOS basis" type="string" value="both"/>
+Simulation Driver  |          <ParameterList id="480" name="EOS parameters">
+Simulation Driver  |            <Parameter docString="" id="479" isDefault="false" isUsed="true" name="EOS type" type="string" value="liquid water"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="486" name="surface-source_molar_density">
+Simulation Driver  |          <Parameter docString="" id="482" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="eos"/>
+Simulation Driver  |          <Parameter docString="" id="483" isDefault="false" isUsed="true" name="EOS basis" type="string" value="molar"/>
+Simulation Driver  |          <ParameterList id="485" name="EOS parameters">
+Simulation Driver  |            <Parameter docString="" id="484" isDefault="false" isUsed="true" name="EOS type" type="string" value="liquid water"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="488" name="surface-ponded_depth">
+Simulation Driver  |          <Parameter docString="" id="487" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="ponded depth"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="494" name="surface-relative_permeability">
+Simulation Driver  |          <Parameter docString="" id="489" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="surface rel perm"/>
+Simulation Driver  |          <ParameterList id="493" name="surface rel perm model">
+Simulation Driver  |            <Parameter docString="" id="490" isDefault="false" isUsed="true" name="surface rel perm model type" type="string" value="unfrozen fraction rel perm, limit one"/>
+Simulation Driver  |            <Parameter docString="" id="491" isDefault="false" isUsed="true" name="unfrozen rel perm cutoff pressure [Pa]" type="double" value="1.00000000000000000e+01"/>
+Simulation Driver  |            <Parameter docString="" id="492" isDefault="false" isUsed="true" name="unfrozen rel perm cutoff pressure, below [Pa]" type="double" value="-1.00000000000000000e+02"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="500" name="surface-overland_conductivity">
+Simulation Driver  |          <Parameter docString="" id="495" isDefault="false" isUsed="true" name="depth key" type="string" value="surface-unfrozen_effective_depth"/>
+Simulation Driver  |          <Parameter docString="" id="496" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="overland conductivity"/>
+Simulation Driver  |          <ParameterList id="499" name="overland conductivity model">
+Simulation Driver  |            <Parameter docString="" id="497" isDefault="false" isUsed="true" name="Manning exponent" type="double" value="6.66666666667000030e-01"/>
+Simulation Driver  |            <Parameter docString="" id="498" isDefault="false" isUsed="true" name="slope regularization epsilon" type="double" value="1.00000000000000002e-02"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="509" name="surface-manning_coefficient">
+Simulation Driver  |          <Parameter docString="" id="501" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="independent variable"/>
+Simulation Driver  |          <ParameterList id="508" name="function">
+Simulation Driver  |            <ParameterList id="507" name="cells">
+Simulation Driver  |              <Parameter docString="" id="502" isDefault="false" isUsed="true" name="region" type="string" value="surface domain"/>
+Simulation Driver  |              <Parameter docString="" id="503" isDefault="false" isUsed="true" name="components" type="Array(string)" value="{cell, boundary_face}"/>
+Simulation Driver  |              <ParameterList id="506" name="function">
+Simulation Driver  |                <ParameterList id="505" name="function-constant">
+Simulation Driver  |                  <Parameter docString="" id="504" isDefault="false" isUsed="true" name="value" type="double" value="1.00000000000000000e+00"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="515" name="snow-source_sink">
+Simulation Driver  |          <Parameter docString="" id="510" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="surface energy balance, three components"/>
+Simulation Driver  |          <Parameter docString="" id="511" isDefault="false" isUsed="true" name="incoming shortwave radiation key" type="string" value="surface-incoming_shortwave_radiation"/>
+Simulation Driver  |          <Parameter docString="" id="512" isDefault="false" isUsed="true" name="volumetric snow depth key" type="string" value="snow-depth"/>
+Simulation Driver  |          <Parameter docString="" id="513" isDefault="false" isUsed="true" name="save diagnostic data" type="bool" value="true"/>
+Simulation Driver  |          <Parameter docString="" id="514" isDefault="false" isUsed="true" name="wind speed reference height [m]" type="double" value="1.00000000000000000e+01"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="519" name="snow-water_equivalent">
+Simulation Driver  |          <Parameter docString="" id="516" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="multiplicative evaluator"/>
+Simulation Driver  |          <Parameter docString="" id="517" isDefault="false" isUsed="true" name="evaluator dependencies" type="Array(string)" value="{snow-depth, snow-density, snow-cell_volume}"/>
+Simulation Driver  |          <Parameter docString="" id="518" isDefault="false" isUsed="true" name="coefficient" type="double" value="1.00000000000000002e-03"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="522" name="snow-water_content">
+Simulation Driver  |          <Parameter docString="" id="520" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="multiplicative evaluator"/>
+Simulation Driver  |          <Parameter docString="" id="521" isDefault="false" isUsed="true" name="evaluator dependencies" type="Array(string)" value="{snow-water_equivalent, surface-molar_density_liquid, snow-cell_volume}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="525" name="surface-energy">
+Simulation Driver  |          <Parameter docString="" id="523" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="surface ice energy"/>
+Simulation Driver  |          <Parameter docString="" id="524" isDefault="false" isUsed="true" name="molar density ice key suffix" type="string" value="molar_density_liquid"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="531" name="surface-internal_energy_liquid">
+Simulation Driver  |          <Parameter docString="" id="526" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="iem"/>
+Simulation Driver  |          <Parameter docString="" id="527" isDefault="false" isUsed="true" name="internal energy key" type="string" value="surface-internal_energy_liquid"/>
+Simulation Driver  |          <ParameterList id="530" name="IEM parameters">
+Simulation Driver  |            <Parameter docString="" id="528" isDefault="false" isUsed="true" name="IEM type" type="string" value="linear"/>
+Simulation Driver  |            <Parameter docString="" id="529" isDefault="false" isUsed="true" name="heat capacity [J mol^-1 K^-1]" type="double" value="7.60000000000000000e+01"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="539" name="surface-internal_energy_ice">
+Simulation Driver  |          <Parameter docString="" id="532" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="iem"/>
+Simulation Driver  |          <Parameter docString="" id="533" isDefault="false" isUsed="true" name="internal energy key" type="string" value="surface-internal_energy_ice"/>
+Simulation Driver  |          <ParameterList id="538" name="IEM parameters">
+Simulation Driver  |            <Parameter docString="" id="534" isDefault="false" isUsed="true" name="IEM type" type="string" value="quadratic"/>
+Simulation Driver  |            <Parameter docString="" id="535" isDefault="false" isUsed="true" name="latent heat [J mol^-1]" type="double" value="-6.00786999999999989e+03"/>
+Simulation Driver  |            <Parameter docString="" id="536" isDefault="false" isUsed="true" name="heat capacity [J mol^-1 K^-1]" type="double" value="3.77841000000000022e+01"/>
+Simulation Driver  |            <Parameter docString="" id="537" isDefault="false" isUsed="true" name="quadratic b [J mol^-1 K^-2]" type="double" value="1.31931999999999994e-01"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="541" name="surface-albedos">
+Simulation Driver  |          <Parameter docString="" id="540" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="subgrid albedos, three components"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="543" name="surface-incoming_longwave_radiation">
+Simulation Driver  |          <Parameter docString="" id="542" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="incoming longwave radiation"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="554" name="surface-incoming_shortwave_radiation">
+Simulation Driver  |          <Parameter docString="" id="544" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="independent variable"/>
+Simulation Driver  |          <ParameterList id="553" name="function">
+Simulation Driver  |            <ParameterList id="552" name="domain">
+Simulation Driver  |              <Parameter docString="" id="545" isDefault="false" isUsed="true" name="region" type="string" value="surface domain"/>
+Simulation Driver  |              <Parameter docString="" id="546" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="551" name="function">
+Simulation Driver  |                <ParameterList id="550" name="function-tabular">
+Simulation Driver  |                  <Parameter docString="" id="547" isDefault="false" isUsed="true" name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5"/>
+Simulation Driver  |                  <Parameter docString="" id="548" isDefault="false" isUsed="true" name="x header" type="string" value="time [s]"/>
+Simulation Driver  |                  <Parameter docString="" id="549" isDefault="false" isUsed="true" name="y header" type="string" value="Incoming shortwave radiation (W/m^2)"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="559" name="surface-incident_shortwave_radiation">
+Simulation Driver  |          <Parameter docString="" id="555" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="incident shortwave radiation"/>
+Simulation Driver  |          <ParameterList id="558" name="incident shortwave radiation parameters">
+Simulation Driver  |            <Parameter docString="" id="556" isDefault="false" isUsed="true" name="daily averaged" type="bool" value="true"/>
+Simulation Driver  |            <Parameter docString="" id="557" isDefault="false" isUsed="true" name="latitude [degrees]" type="double" value="3.80000000000000000e+01"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="570" name="surface-air_temperature">
+Simulation Driver  |          <Parameter docString="" id="560" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="independent variable"/>
+Simulation Driver  |          <ParameterList id="569" name="function">
+Simulation Driver  |            <ParameterList id="568" name="domain">
+Simulation Driver  |              <Parameter docString="" id="561" isDefault="false" isUsed="true" name="region" type="string" value="surface domain"/>
+Simulation Driver  |              <Parameter docString="" id="562" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="567" name="function">
+Simulation Driver  |                <ParameterList id="566" name="function-tabular">
+Simulation Driver  |                  <Parameter docString="" id="563" isDefault="false" isUsed="true" name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5"/>
+Simulation Driver  |                  <Parameter docString="" id="564" isDefault="false" isUsed="true" name="x header" type="string" value="time [s]"/>
+Simulation Driver  |                  <Parameter docString="" id="565" isDefault="false" isUsed="true" name="y header" type="string" value="air temperature [K]"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="581" name="surface-relative_humidity">
+Simulation Driver  |          <Parameter docString="" id="571" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="independent variable"/>
+Simulation Driver  |          <ParameterList id="580" name="function">
+Simulation Driver  |            <ParameterList id="579" name="domain">
+Simulation Driver  |              <Parameter docString="" id="572" isDefault="false" isUsed="true" name="region" type="string" value="surface domain"/>
+Simulation Driver  |              <Parameter docString="" id="573" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="578" name="function">
+Simulation Driver  |                <ParameterList id="577" name="function-tabular">
+Simulation Driver  |                  <Parameter docString="" id="574" isDefault="false" isUsed="true" name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5"/>
+Simulation Driver  |                  <Parameter docString="" id="575" isDefault="false" isUsed="true" name="x header" type="string" value="time [s]"/>
+Simulation Driver  |                  <Parameter docString="" id="576" isDefault="false" isUsed="true" name="y header" type="string" value="Relative humidity at 5 m (%)"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="592" name="surface-wind_speed">
+Simulation Driver  |          <Parameter docString="" id="582" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="independent variable"/>
+Simulation Driver  |          <ParameterList id="591" name="function">
+Simulation Driver  |            <ParameterList id="590" name="domain">
+Simulation Driver  |              <Parameter docString="" id="583" isDefault="false" isUsed="true" name="region" type="string" value="surface domain"/>
+Simulation Driver  |              <Parameter docString="" id="584" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="589" name="function">
+Simulation Driver  |                <ParameterList id="588" name="function-tabular">
+Simulation Driver  |                  <Parameter docString="" id="585" isDefault="false" isUsed="true" name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5"/>
+Simulation Driver  |                  <Parameter docString="" id="586" isDefault="false" isUsed="true" name="x header" type="string" value="time [s]"/>
+Simulation Driver  |                  <Parameter docString="" id="587" isDefault="false" isUsed="true" name="y header" type="string" value="Wind speed at 10 m (m/s)"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="603" name="surface-precipitation_rain">
+Simulation Driver  |          <Parameter docString="" id="593" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="independent variable"/>
+Simulation Driver  |          <ParameterList id="602" name="function">
+Simulation Driver  |            <ParameterList id="601" name="domain">
+Simulation Driver  |              <Parameter docString="" id="594" isDefault="false" isUsed="true" name="region" type="string" value="surface domain"/>
+Simulation Driver  |              <Parameter docString="" id="595" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="600" name="function">
+Simulation Driver  |                <ParameterList id="599" name="function-tabular">
+Simulation Driver  |                  <Parameter docString="" id="596" isDefault="false" isUsed="true" name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5"/>
+Simulation Driver  |                  <Parameter docString="" id="597" isDefault="false" isUsed="true" name="x header" type="string" value="time [s]"/>
+Simulation Driver  |                  <Parameter docString="" id="598" isDefault="false" isUsed="true" name="y header" type="string" value="precipitation rain [m s^-1]"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="614" name="snow-precipitation">
+Simulation Driver  |          <Parameter docString="" id="604" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="independent variable"/>
+Simulation Driver  |          <ParameterList id="613" name="function">
+Simulation Driver  |            <ParameterList id="612" name="domain">
+Simulation Driver  |              <Parameter docString="" id="605" isDefault="false" isUsed="true" name="region" type="string" value="surface domain"/>
+Simulation Driver  |              <Parameter docString="" id="606" isDefault="false" isUsed="true" name="component" type="string" value="cell"/>
+Simulation Driver  |              <ParameterList id="611" name="function">
+Simulation Driver  |                <ParameterList id="610" name="function-tabular">
+Simulation Driver  |                  <Parameter docString="" id="607" isDefault="false" isUsed="true" name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5"/>
+Simulation Driver  |                  <Parameter docString="" id="608" isDefault="false" isUsed="true" name="x header" type="string" value="time [s]"/>
+Simulation Driver  |                  <Parameter docString="" id="609" isDefault="false" isUsed="true" name="y header" type="string" value="Snow water equivalence (m/s)_sd004"/>
+Simulation Driver  |                </ParameterList>
+Simulation Driver  |              </ParameterList>
+Simulation Driver  |            </ParameterList>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="616" name="surface-thaw_depth">
+Simulation Driver  |          <Parameter docString="" id="615" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="thaw depth"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="618" name="surface-water_table_depth">
+Simulation Driver  |          <Parameter docString="" id="617" isDefault="false" isUsed="true" name="field evaluator type" type="string" value="water table depth"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="633" name="initial conditions">
+Simulation Driver  |        <ParameterList id="621" name="atmospheric_pressure">
+Simulation Driver  |          <Parameter docString="" id="620" isDefault="false" isUsed="true" name="value" type="double" value="1.01325000000000000e+05"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="623" name="gravity">
+Simulation Driver  |          <Parameter docString="" id="622" isDefault="false" isUsed="true" name="value" type="Array(double)" value="{0.00000000000000000e+00, 0.00000000000000000e+00, -9.80664999999999942e+00}"/>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |        <ParameterList id="632" name="land cover types">
+Simulation Driver  |          <ParameterList id="631" name="surface domain">
+Simulation Driver  |            <Parameter docString="" id="624" isDefault="false" isUsed="true" name="dessicated zone thickness [m]" type="double" value="1.00000000000000006e-01"/>
+Simulation Driver  |            <Parameter docString="" id="625" isDefault="false" isUsed="true" name="roughness length of bare ground [m]" type="double" value="4.00000000000000008e-02"/>
+Simulation Driver  |            <Parameter docString="" id="626" isDefault="false" isUsed="true" name="roughness length of snow [m]" type="double" value="5.00000000000000010e-03"/>
+Simulation Driver  |            <Parameter docString="" id="627" isDefault="false" isUsed="true" name="snow transition depth [m]" type="double" value="2.00000000000000004e-02"/>
+Simulation Driver  |            <Parameter docString="" id="628" isDefault="false" isUsed="true" name="water transition depth [m]" type="double" value="1.00000000000000002e-02"/>
+Simulation Driver  |            <Parameter docString="" id="629" isDefault="false" isUsed="true" name="albedo of bare ground [-]" type="double" value="5.50000000000000044e-01"/>
+Simulation Driver  |            <Parameter docString="" id="630" isDefault="false" isUsed="true" name="emissivity of bare ground [-]" type="double" value="5.50000000000000044e-01"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |    </ParameterList>
+Simulation Driver  |    <ParameterList id="644" name="visualization">
+Simulation Driver  |      <ParameterList id="637" name="domain">
+Simulation Driver  |        <Parameter docString="" id="635" isDefault="false" isUsed="true" name="times start period stop 0" type="Array(double)" value="{0.00000000000000000e+00, 1.00000000000000000e+01, -1.00000000000000000e+00}"/>
+Simulation Driver  |        <Parameter docString="" id="636" isDefault="false" isUsed="true" name="times start period stop 0 units" type="string" value="d"/>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="640" name="surface">
+Simulation Driver  |        <Parameter docString="" id="638" isDefault="false" isUsed="true" name="times start period stop 0" type="Array(double)" value="{0.00000000000000000e+00, 1.00000000000000000e+01, -1.00000000000000000e+00}"/>
+Simulation Driver  |        <Parameter docString="" id="639" isDefault="false" isUsed="true" name="times start period stop 0 units" type="string" value="d"/>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |      <ParameterList id="643" name="snow">
+Simulation Driver  |        <Parameter docString="" id="641" isDefault="false" isUsed="true" name="times start period stop 0" type="Array(double)" value="{0.00000000000000000e+00, 1.00000000000000000e+01, -1.00000000000000000e+00}"/>
+Simulation Driver  |        <Parameter docString="" id="642" isDefault="false" isUsed="true" name="times start period stop 0 units" type="string" value="d"/>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |    </ParameterList>
+Simulation Driver  |    <ParameterList id="722" name="observations">
+Simulation Driver  |      <ParameterList id="721" name="observation file">
+Simulation Driver  |        <Parameter docString="" id="645" isDefault="false" isUsed="true" name="write interval" type="int" value="1"/>
+Simulation Driver  |        <Parameter docString="" id="646" isDefault="false" isUsed="true" name="observation output filename" type="string" value="observations.dat"/>
+Simulation Driver  |        <Parameter docString="" id="647" isDefault="false" isUsed="true" name="times start period stop" type="Array(double)" value="{0.00000000000000000e+00, 1.00000000000000000e+00, -1.00000000000000000e+00}"/>
+Simulation Driver  |        <Parameter docString="" id="648" isDefault="false" isUsed="true" name="times start period stop units" type="string" value="d"/>
+Simulation Driver  |        <Parameter docString="" id="649" isDefault="false" isUsed="true" name="delimiter" type="string" value=" "/>
+Simulation Driver  |        <ParameterList id="720" name="observed quantities">
+Simulation Driver  |          <ParameterList id="654" name="point -0.04 temperature [K]">
+Simulation Driver  |            <Parameter docString="" id="650" isDefault="false" isUsed="true" name="variable" type="string" value="temperature"/>
+Simulation Driver  |            <Parameter docString="" id="651" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -0.04"/>
+Simulation Driver  |            <Parameter docString="" id="652" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="653" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="659" name="point -0.1 temperature [K]">
+Simulation Driver  |            <Parameter docString="" id="655" isDefault="false" isUsed="true" name="variable" type="string" value="temperature"/>
+Simulation Driver  |            <Parameter docString="" id="656" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -0.1"/>
+Simulation Driver  |            <Parameter docString="" id="657" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="658" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="664" name="point -0.2 temperature [K]">
+Simulation Driver  |            <Parameter docString="" id="660" isDefault="false" isUsed="true" name="variable" type="string" value="temperature"/>
+Simulation Driver  |            <Parameter docString="" id="661" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -0.2"/>
+Simulation Driver  |            <Parameter docString="" id="662" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="663" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="669" name="point -0.4 temperature [K]">
+Simulation Driver  |            <Parameter docString="" id="665" isDefault="false" isUsed="true" name="variable" type="string" value="temperature"/>
+Simulation Driver  |            <Parameter docString="" id="666" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -0.4"/>
+Simulation Driver  |            <Parameter docString="" id="667" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="668" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="674" name="point -0.8 temperature [K]">
+Simulation Driver  |            <Parameter docString="" id="670" isDefault="false" isUsed="true" name="variable" type="string" value="temperature"/>
+Simulation Driver  |            <Parameter docString="" id="671" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -0.8"/>
+Simulation Driver  |            <Parameter docString="" id="672" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="673" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="679" name="point -1.2 temperature [K]">
+Simulation Driver  |            <Parameter docString="" id="675" isDefault="false" isUsed="true" name="variable" type="string" value="temperature"/>
+Simulation Driver  |            <Parameter docString="" id="676" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -1.2"/>
+Simulation Driver  |            <Parameter docString="" id="677" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="678" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="684" name="point -1.6 temperature [K]">
+Simulation Driver  |            <Parameter docString="" id="680" isDefault="false" isUsed="true" name="variable" type="string" value="temperature"/>
+Simulation Driver  |            <Parameter docString="" id="681" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -1.6"/>
+Simulation Driver  |            <Parameter docString="" id="682" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="683" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="689" name="point -0.04 saturation liquid">
+Simulation Driver  |            <Parameter docString="" id="685" isDefault="false" isUsed="true" name="variable" type="string" value="saturation_liquid"/>
+Simulation Driver  |            <Parameter docString="" id="686" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -0.04"/>
+Simulation Driver  |            <Parameter docString="" id="687" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="688" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="694" name="point -0.1 saturation liquid">
+Simulation Driver  |            <Parameter docString="" id="690" isDefault="false" isUsed="true" name="variable" type="string" value="saturation_liquid"/>
+Simulation Driver  |            <Parameter docString="" id="691" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -0.1"/>
+Simulation Driver  |            <Parameter docString="" id="692" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="693" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="699" name="point -0.2 saturation liquid">
+Simulation Driver  |            <Parameter docString="" id="695" isDefault="false" isUsed="true" name="variable" type="string" value="saturation_liquid"/>
+Simulation Driver  |            <Parameter docString="" id="696" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -0.2"/>
+Simulation Driver  |            <Parameter docString="" id="697" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="698" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="704" name="point -0.4 saturation liquid">
+Simulation Driver  |            <Parameter docString="" id="700" isDefault="false" isUsed="true" name="variable" type="string" value="saturation_liquid"/>
+Simulation Driver  |            <Parameter docString="" id="701" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -0.4"/>
+Simulation Driver  |            <Parameter docString="" id="702" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="703" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="709" name="point -0.8 saturation liquid">
+Simulation Driver  |            <Parameter docString="" id="705" isDefault="false" isUsed="true" name="variable" type="string" value="saturation_liquid"/>
+Simulation Driver  |            <Parameter docString="" id="706" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -0.8"/>
+Simulation Driver  |            <Parameter docString="" id="707" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="708" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="714" name="point -1.2 saturation liquid">
+Simulation Driver  |            <Parameter docString="" id="710" isDefault="false" isUsed="true" name="variable" type="string" value="saturation_liquid"/>
+Simulation Driver  |            <Parameter docString="" id="711" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -1.2"/>
+Simulation Driver  |            <Parameter docString="" id="712" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="713" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |          <ParameterList id="719" name="point -1.6 saturation liquid">
+Simulation Driver  |            <Parameter docString="" id="715" isDefault="false" isUsed="true" name="variable" type="string" value="saturation_liquid"/>
+Simulation Driver  |            <Parameter docString="" id="716" isDefault="false" isUsed="true" name="region" type="string" value="subsurface point -1.6"/>
+Simulation Driver  |            <Parameter docString="" id="717" isDefault="false" isUsed="true" name="functional" type="string" value="point"/>
+Simulation Driver  |            <Parameter docString="" id="718" isDefault="false" isUsed="true" name="location name" type="string" value="cell"/>
+Simulation Driver  |          </ParameterList>
+Simulation Driver  |        </ParameterList>
+Simulation Driver  |      </ParameterList>
+Simulation Driver  |    </ParameterList>
+Simulation Driver  |    <ParameterList id="725" name="VerboseObject">
+Simulation Driver  |      <Parameter docString="" id="723" isDefault="true" isUsed="true" name="Output File" type="string" value="none"/>
+Simulation Driver  |      <Parameter docString="" id="724" isDefault="true" isUsed="true" name="Verbosity Level" type="string" value="default"/>
+Simulation Driver  |    </ParameterList>
+Simulation Driver  |    <Validators/>
+Simulation Driver  |  </ParameterList>
+Simulation Driver  |  
+Simulation Driver  |  ======================> done dumping parameter list. <================
+================================================================================
+
+                      TimeMonitor results over 1 processor
+
+Timer Name              Global time (num calls)    
+--------------------------------------------------------------------------------
+volume mesh creation    0 (1)                      
+================================================================================
+Default VO with name = top level MPC
+Default VO with name = permafrost surface and subsurface
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+ASCEMIO_Info: Preferred group size is set to nprocs/numIOgroups (1/1) 
+ASCEMIO_Info: Preferred group size is set to 1 
+HDF5-DIAG: Error detected in HDF5 (1.10.6) MPI-process 0:
+  #000: /home/rk/ats_rk/amanzi_tpls-build-master-Release/hdf5/hdf5-1.10.6-source/src/H5F.c line 509 in H5Fopen(): unable to open file
+    major: File accessibilty
+    minor: Unable to open file
+  #001: /home/rk/ats_rk/amanzi_tpls-build-master-Release/hdf5/hdf5-1.10.6-source/src/H5Fint.c line 1498 in H5F_open(): unable to open file: time = Tue Aug 15 11:40:10 2023
+, name = '../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5', tent_flags = 1
+    major: File accessibilty
+    minor: Unable to open file
+  #002: /home/rk/ats_rk/amanzi_tpls-build-master-Release/hdf5/hdf5-1.10.6-source/src/H5FD.c line 734 in H5FD_open(): open failed
+    major: Virtual File Layer
+    minor: Unable to initialize object
+  #003: /home/rk/ats_rk/amanzi_tpls-build-master-Release/hdf5/hdf5-1.10.6-source/src/H5FDmpio.c line 998 in H5FD_mpio_open(): MPI_File_open failed
+    major: Internal error (too specific to document in detail)
+    minor: Some MPI function failed
+  #004: /home/rk/ats_rk/amanzi_tpls-build-master-Release/hdf5/hdf5-1.10.6-source/src/H5FDmpio.c line 998 in H5FD_mpio_open(): MPI_ERR_NO_SUCH_FILE: no such file or directory
+    major: Internal error (too specific to document in detail)
+    minor: MPI Error String
+terminate called after throwing an instance of 'Errors::Message'
+  what():  HDF5_MPI: error opening file "../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5" with READ_ONLY access.
+[rk-virtual-machine:07825] *** Process received signal ***
+[rk-virtual-machine:07825] Signal: Aborted (6)
+[rk-virtual-machine:07825] Signal code:  (-6)
+[rk-virtual-machine:07825] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7fcf827cd090]
+[rk-virtual-machine:07825] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xcb)[0x7fcf827cd00b]
+[rk-virtual-machine:07825] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x12b)[0x7fcf827ac859]
+[rk-virtual-machine:07825] [ 3] /lib/x86_64-linux-gnu/libstdc++.so.6(+0x9e911)[0x7fcf82a35911]
+[rk-virtual-machine:07825] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xaa38c)[0x7fcf82a4138c]
+[rk-virtual-machine:07825] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xaa3f7)[0x7fcf82a413f7]
+[rk-virtual-machine:07825] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xaa6a9)[0x7fcf82a416a9]
+[rk-virtual-machine:07825] [ 7] ats(_ZN10Exceptions12amanzi_throwIN6Errors7MessageEEEvRKT_+0x59)[0x5595c5cb7ff2]
+[rk-virtual-machine:07825] [ 8] /home/rk/ats_rk/amanzi-install-master-Release/lib/liboutput.so(+0x1e255)[0x7fcf80e4e255]
+[rk-virtual-machine:07825] [ 9] /home/rk/ats_rk/amanzi-install-master-Release/lib/libstate.so(_ZN6Amanzi21Field_CompositeVector15ReadCheckpoint_ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0xdd)[0x7fcf83ce680d]
+[rk-virtual-machine:07825] [10] /home/rk/ats_rk/amanzi-install-master-Release/lib/libstate.so(_ZN6Amanzi21Field_CompositeVector10InitializeERN7Teuchos13ParameterListE+0x19b)[0x7fcf83cedb3b]
+[rk-virtual-machine:07825] [11] /home/rk/ats_rk/amanzi-install-master-Release/lib/libats_pks.so(_ZN6Amanzi19PK_Physical_Default10InitializeERKN7Teuchos3PtrINS_5StateEEE+0x46a)[0x7fcf8419fd1a]
+[rk-virtual-machine:07825] [12] /home/rk/ats_rk/amanzi-install-master-Release/lib/libats_pks.so(_ZN6Amanzi22PK_PhysicalBDF_Default10InitializeERKN7Teuchos3PtrINS_5StateEEE+0x1a)[0x7fcf841a2f5a]
+[rk-virtual-machine:07825] [13] /home/rk/ats_rk/amanzi-install-master-Release/lib/libats_surface_balance.so(_ZN6Amanzi14SurfaceBalance15ImplicitSubgrid10InitializeERKN7Teuchos3PtrINS_5StateEEE+0x3d)[0x7fcf8476520d]
+[rk-virtual-machine:07825] [14] ats(+0x30d38)[0x5595c5cc3d38]
+[rk-virtual-machine:07825] [15] /home/rk/ats_rk/amanzi-install-master-Release/lib/libats_executable.so(_ZN3ATS11Coordinator10initializeEv+0x261)[0x7fcf84a14b71]
+[rk-virtual-machine:07825] [16] /home/rk/ats_rk/amanzi-install-master-Release/lib/libats_executable.so(_ZN3ATS11Coordinator12cycle_driverEv+0x78)[0x7fcf84a187f8]
+[rk-virtual-machine:07825] [17] /home/rk/ats_rk/amanzi-install-master-Release/lib/libats_executable.so(_ZN3ATS16SimulationDriver3RunERKN7Teuchos3RCPIK11Epetra_CommEERNS1_13ParameterListE+0x43b)[0x7fcf84a426bb]
+[rk-virtual-machine:07825] [18] ats(+0x25628)[0x5595c5cb8628]
+[rk-virtual-machine:07825] [19] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7fcf827ae083]
+[rk-virtual-machine:07825] [20] ats(+0x28fbe)[0x5595c5cbbfbe]
+[rk-virtual-machine:07825] *** End of error message ***
