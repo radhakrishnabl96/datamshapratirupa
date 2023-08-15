@@ -321,7 +321,7 @@ ptf #
       </ParameterList>
  
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="restart file" type="string" value="/bigwork/nhgjrabl/Simulations/ats-demos/rk_model/Spinup_final_16032022/Case5_III_C_cv_spinup_IV_HD1_checkpoint_final.h5" />
+        <Parameter name="restart file" type="string" value="../../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5" />
       </ParameterList>
  
       <ParameterList name="water retention evaluator" type="ParameterList">
@@ -443,7 +443,7 @@ ptf #
       </ParameterList> -->
 
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="restart file" type="string" value="/bigwork/nhgjrabl/Simulations/ats-demos/rk_model/Spinup_final_16032022/Case5_III_C_cv_spinup_IV_HD1_checkpoint_final.h5" />
+        <Parameter name="restart file" type="string" value="../../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5" />
       </ParameterList>
  
       <ParameterList name="thermal conductivity evaluator" type="ParameterList">
@@ -534,7 +534,7 @@ ptf #
         <Parameter name="verbosity level" type="string" value="low" />
       </ParameterList>
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="restart file" type="string" value="/bigwork/nhgjrabl/Simulations/ats-demos/rk_model/Spinup_final_16032022/Case5_III_C_cv_spinup_IV_HD1_checkpoint_final.h5" />
+        <Parameter name="restart file" type="string" value="../../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5" />
       </ParameterList>
  
       <ParameterList name="inverse" type="ParameterList">
@@ -890,7 +890,7 @@ ptf #
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="/bigwork/nhgjrabl/Simulations/ats-demos/rk_model/Data/Data_Yakou/Yakou_met_data_ITP_rk/Final_InputData_Case5/Calib_data_Case5_2016.h5" />
+                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="Incoming shortwave radiation (W/m^2)" />
               </ParameterList>
@@ -919,7 +919,7 @@ ptf #
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="/bigwork/nhgjrabl/Simulations/ats-demos/rk_model/Data/Data_Yakou/Yakou_met_data_ITP_rk/Final_InputData_Case5/Calib_data_Case5_2016.h5" />
+                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="air temperature [K]" />
               </ParameterList>
@@ -936,7 +936,7 @@ ptf #
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="/bigwork/nhgjrabl/Simulations/ats-demos/rk_model/Data/Data_Yakou/Yakou_met_data_ITP_rk/Final_InputData_Case5/Calib_data_Case5_2016.h5" />
+                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="Relative humidity at 5 m (%)" />
               </ParameterList>
@@ -956,7 +956,7 @@ ptf #
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="/bigwork/nhgjrabl/Simulations/ats-demos/rk_model/Data/Data_Yakou/Yakou_met_data_ITP_rk/Final_InputData_Case5/Calib_data_Case5_2016.h5" />
+                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="Wind speed at 10 m (m/s)" />
               </ParameterList>
@@ -976,7 +976,7 @@ ptf #
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="/bigwork/nhgjrabl/Simulations/ats-demos/rk_model/Data/Data_Yakou/Yakou_met_data_ITP_rk/Final_InputData_Case5/Calib_data_Case5_2016.h5" />
+                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="precipitation rain [m s^-1]" />
               </ParameterList>
@@ -996,9 +996,9 @@ ptf #
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="/bigwork/nhgjrabl/Simulations/ats-demos/rk_model/Data/Data_Yakou/Yakou_met_data_ITP_rk/Final_InputData_Case5/Calib_data_Case5_2016.h5" />
+                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
-                <Parameter name="y header" type="string" value="Snow water equivalence (m/s)_sd045" />
+                <Parameter name="y header" type="string" value="Snow water equivalence (m/s)_sd004" />
               </ParameterList> 
               <!--<ParameterList name="function-constant" type="ParameterList">
                 <Parameter name="value" type="double" value="0.0" />
