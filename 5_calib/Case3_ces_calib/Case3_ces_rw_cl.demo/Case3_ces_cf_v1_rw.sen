@@ -1,0 +1,131 @@
+                    PARAMETER SENSITIVITIES: CASE Case3_ces_cf_v1_rw
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 1   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   alpha_p         alpha_p_gp   0.0100000000000      0.000412788320939   
+   alpha_m         alpha_m_gp   0.00182491435340     0.00144019371919    
+   n_p             n_p_gp       1.50000000000        1.33033445114e-05   
+   wr_p            wr_p_gp      0.100000000000       7.29211121347e-05   
+   por_p           por_p_gp     0.637390000000       5.25581841286e-05   
+   por_m           por_m_gp     0.481030765290       3.51623208537e-05   
+   perm_p          perm_p_gp    5.34662212720e-11    35350.0629179       
+   perm_m          perm_m_gp    1.00000000000e-13    29463954.0171       
+   pen_s           pen_s_gp     0.0200000000000      0.000353954936062   
+   z_bg            z_bg_gp      0.0400000000000      0.000241449688667   
+   z_s             z_s_gp       0.00500000000000     0.000685089935680   
+   b_bc            b_bc_gp      268.450000000        8.77979745427e-08   
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 2   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   alpha_p         alpha_p_gp   0.0100544844888      0.000569045844840   
+   alpha_m         alpha_m_gp   0.00170055226781     0.00328177812504    
+   n_p             n_p_gp       1.50000099374        1.25707629395e-05   
+   wr_p            wr_p_gp      0.102535593675       9.84155676780e-05   
+   por_p           por_p_gp     0.549076851159       5.09300636211e-05   
+   por_m           por_m_gp     0.446387253255       3.61693070663e-05   
+   perm_p          perm_p_gp    5.02781931546e-11    107022.588016       
+   perm_m          perm_m_gp    9.34278823855e-14    22267000.9832       
+   pen_s           pen_s_gp     0.0249050556624      0.000248530429188   
+   z_bg            z_bg_gp      0.0454481534692      0.000146029375040   
+   z_s             z_s_gp       0.00610661024000     0.000803075467769   
+   b_bc            b_bc_gp      268.450000000        1.23507026471e-07   
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 3   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   alpha_p         alpha_p_gp   0.00250000000000     0.00306770698867    
+   alpha_m         alpha_m_gp   0.00198074738661     0.00286235202441    
+   n_p             n_p_gp       1.49999927007        1.83792330314e-05   
+   wr_p            wr_p_gp      0.110246338499       7.01282822179e-05   
+   por_p           por_p_gp     0.506008718988       4.90672516359e-05   
+   por_m           por_m_gp     0.427076547218       4.03212359026e-05   
+   perm_p          perm_p_gp    5.93296031404e-11    50400.4166647       
+   perm_m          perm_m_gp    1.59941244019e-13    25286916.4213       
+   pen_s           pen_s_gp     0.0284825148049      0.000154991362429   
+   z_bg            z_bg_gp      0.0546057495765      0.000117107104274   
+   z_s             z_s_gp       0.00634418441000     0.000419040721367   
+   b_bc            b_bc_gp      268.450000000        2.31948768169e-07   
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 4   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   alpha_p         alpha_p_gp   0.00250000000000     0.00192876762076    
+   alpha_m         alpha_m_gp   0.00230792203214     0.00112967283047    
+   n_p             n_p_gp       1.49613641916        1.41136628706e-05   
+   wr_p            wr_p_gp      0.119028988620       4.54919148176e-05   
+   por_p           por_p_gp     0.481522240266       4.97320738048e-05   
+   por_m           por_m_gp     0.417434491322       3.78481291982e-05   
+   perm_p          perm_p_gp    6.66302377051e-11    61948.0553471       
+   perm_m          perm_m_gp    1.75000000000e-13    5268758.55088       
+   pen_s           pen_s_gp     0.0316990839954      0.000196881813503   
+   z_bg            z_bg_gp      0.0640014621504      8.36744045864e-05   
+   z_s             z_s_gp       0.00191210760000     0.00173396766353    
+   b_bc            b_bc_gp      268.450000000        2.28159112808e-07   
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 5   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   alpha_p         alpha_p_gp   0.00250000000000     0.00184685515154    
+   alpha_m         alpha_m_gp   0.00228114266268     0.00137610830632    
+   n_p             n_p_gp       1.48717762681        1.40799553891e-05   
+   wr_p            wr_p_gp      0.124766233706       4.31531080860e-05   
+   por_p           por_p_gp     0.463574168363       4.98085060566e-05   
+   por_m           por_m_gp     0.400366579046       4.12692122898e-05   
+   perm_p          perm_p_gp    7.55407664579e-11    34004.3158082       
+   perm_m          perm_m_gp    1.75000000000e-13    6930189.39739       
+   pen_s           pen_s_gp     0.0313073451121      0.000165736302488   
+   z_bg            z_bg_gp      0.0637073333327      7.70815593696e-05   
+   z_s             z_s_gp       0.00125000000000     0.000694374621754   
+   b_bc            b_bc_gp      268.450000000        1.20810937189e-07   
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 6   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   alpha_p         alpha_p_gp   0.00250000000000     0.00228159862362    
+   alpha_m         alpha_m_gp   0.00114323906758     0.00358704287940    
+   n_p             n_p_gp       1.47413854057        1.43983986771e-05   
+   wr_p            wr_p_gp      0.134917512182       4.06334446287e-05   
+   por_p           por_p_gp     0.443711872694       4.97250307668e-05   
+   por_m           por_m_gp     0.379416591754       4.63484952143e-05   
+   perm_p          perm_p_gp    5.72546719454e-11    70174.8804571       
+   perm_m          perm_m_gp    1.75000000000e-13    9647944.74006       
+   pen_s           pen_s_gp     0.0271081570499      0.000117803699290   
+   z_bg            z_bg_gp      0.0684253846573      7.63184041999e-05   
+   z_s             z_s_gp       0.00125000000000     0.00266714797296    
+   b_bc            b_bc_gp      268.450000000        1.57270255484e-07   
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 7   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   alpha_p         alpha_p_gp   0.00250000000000     0.00212796837050    
+   alpha_m         alpha_m_gp   0.00109282626427     0.00194769506646    
+   n_p             n_p_gp       1.46874694492        1.48418448117e-05   
+   wr_p            wr_p_gp      0.136923602480       4.05865303132e-05   
+   por_p           por_p_gp     0.439242412010       4.93214592842e-05   
+   por_m           por_m_gp     0.373248266021       4.55476283440e-05   
+   perm_p          perm_p_gp    5.63706008068e-11    66979.6792586       
+   perm_m          perm_m_gp    1.75000000000e-13    6305879.71400       
+   pen_s           pen_s_gp     0.0256451034234      0.000163741371105   
+   z_bg            z_bg_gp      0.0696063461643      6.41507662254e-05   
+   z_s             z_s_gp       0.00125000000000     0.00125347581331    
+   b_bc            b_bc_gp      268.450000000        1.64221536063e-07   
+
+
+NUMERIC PARAMETER SENSITIVITIES FOR OPTIMISATION ITERATION NO. 8   ----->
+  Parameter name   Group        Current Value        PEST_CSS_wo_reg
+   alpha_p         alpha_p_gp   0.00250000000000     0.00167798365343    
+   alpha_m         alpha_m_gp   0.00113244221096     0.00315865152655    
+   n_p             n_p_gp       1.46821401825        1.49169953285e-05   
+   wr_p            wr_p_gp      0.137442406369       3.99832753632e-05   
+   por_p           por_p_gp     0.438661145383       5.10150472923e-05   
+   por_m           por_m_gp     0.372766649313       4.38782937120e-05   
+   perm_p          perm_p_gp    5.66176161022e-11    56600.3369201       
+   perm_m          perm_m_gp    1.75000000000e-13    4942524.53155       
+   pen_s           pen_s_gp     0.0257284938671      0.000149308466441   
+   z_bg            z_bg_gp      0.0700000000000      6.36087479954e-05   
+   z_s             z_s_gp       0.00126952619000     0.00153979960820    
+   b_bc            b_bc_gp      268.450000000        1.77025098507e-07   
+
+

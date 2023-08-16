@@ -1,0 +1,43 @@
+--------------------------------------------------------------------------
+By default, for Open MPI 4.0 and later, infiniband ports on a device
+are not used by default.  The intent is to use UCX for these devices.
+You can override this policy by setting the btl_openib_allow_ib MCA parameter
+to true.
+
+  Local host:              isu-n009
+  Local adapter:           mlx5_0
+  Local port:              1
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   isu-n009
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  /ats_s/amanzi_tpls-build-master-Release/trilinos/trilinos-13-0-afc4e525-source/packages/teuchos/parameterlist/src/Teuchos_XMLParser.cpp:253:
+
+Throw number = 1
+
+Throw test that evaluated to true: curopen != 0
+
+XML parse error at line 1293: file ended before closing element 'ParameterList' from line 1
+[isu-n009:07818] *** Process received signal ***
+[isu-n009:07818] Signal: Aborted (6)
+[isu-n009:07818] Signal code:  (-6)
+[isu-n009:07818] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x46210)[0x2b334bac1210]
+[isu-n009:07818] [ 1] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xcb)[0x2b334bac118b]
+[isu-n009:07818] [ 2] /lib/x86_64-linux-gnu/libc.so.6(abort+0x12b)[0x2b334baa0859]
+[isu-n009:07818] [ 3] /lib/x86_64-linux-gnu/libstdc++.so.6(+0x9e911)[0x2b334b91c911]
+[isu-n009:07818] [ 4] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xaa38c)[0x2b334b92838c]
+[isu-n009:07818] [ 5] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xaa3f7)[0x2b334b9283f7]
+[isu-n009:07818] [ 6] /lib/x86_64-linux-gnu/libstdc++.so.6(+0xaa6a9)[0x2b334b9286a9]
+[isu-n009:07818] [ 7] /ats_s/amanzi_tpls-install-master-Release/trilinos-13-0-afc4e525/lib/libteuchosparameterlist.so.13(+0x194c96)[0x2b334b233c96]
+[isu-n009:07818] [ 8] /ats_s/amanzi_tpls-install-master-Release/trilinos-13-0-afc4e525/lib/libteuchosparameterlist.so.13(_ZNK7Teuchos14XMLInputSource9getObjectEv+0xbb)[0x2b334b45916b]
+[isu-n009:07818] [ 9] /ats_s/amanzi_tpls-install-master-Release/trilinos-13-0-afc4e525/lib/libteuchosparameterlist.so.13(_ZN7Teuchos27updateParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3PtrINS_13ParameterListEEE+0x62)[0x2b334b461ee2]
+[isu-n009:07818] [10] /ats_s/amanzi_tpls-install-master-Release/trilinos-13-0-afc4e525/lib/libteuchosparameterlist.so.13(_ZN7Teuchos24getParametersFromXmlFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x1ab)[0x2b334b46217b]
+[isu-n009:07818] [11] /ats_s/amanzi-install-master-Release/bin/ats(+0x255c6)[0x5655259ba5c6]
+[isu-n009:07818] [12] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x2b334baa20b3]
+[isu-n009:07818] [13] /ats_s/amanzi-install-master-Release/bin/ats(+0x28fbe)[0x5655259bdfbe]
+[isu-n009:07818] *** End of error message ***

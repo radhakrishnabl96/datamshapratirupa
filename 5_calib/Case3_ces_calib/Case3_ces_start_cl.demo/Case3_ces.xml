@@ -320,7 +320,7 @@
       </ParameterList>
  
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="restart file" type="string" value="../../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5" />
+        <Parameter name="restart file" type="string" value="../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5" />
       </ParameterList>
  
       <ParameterList name="water retention evaluator" type="ParameterList">
@@ -331,15 +331,15 @@
           <ParameterList name="peat" type="ParameterList">
             <Parameter name="region" type="string" value="subsurface domain peat" />
             <Parameter name="WRM Type" type="string" value="van Genuchten" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="     1.0000000E-02" />
-            <Parameter name="van Genuchten n [-]" type="double" value=" 1.5000000E+00" />
-            <Parameter name="residual saturation [-]" type="double" value="  1.0000000E-01" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="0.0100000000000000" />
+            <Parameter name="van Genuchten n [-]" type="double" value="1.500000000000" />
+            <Parameter name="residual saturation [-]" type="double" value="0.1000000000000" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
           </ParameterList>
           <ParameterList name="mineral" type="ParameterList">
             <Parameter name="region" type="string" value="subsurface domain mineral" />
             <Parameter name="WRM Type" type="string" value="van Genuchten" />
-            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="     1.8249144E-03" />
+            <Parameter name="van Genuchten alpha [Pa^-1]" type="double" value="1.824914353400e-03" />
             <Parameter name="van Genuchten n [-]" type="double" value="1.48459" />
             <Parameter name="residual saturation [-]" type="double" value="0.156116" />
             <Parameter name="smoothing interval width [saturation]" type="double" value="0.1" />
@@ -420,7 +420,7 @@
             <Parameter name="regions" type="Array(string)" value="{bottom face}" />
             <ParameterList name="boundary temperature" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="  2.6845000E+02" />
+                <Parameter name="value" type="double" value="2.684500000e+02" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -440,9 +440,9 @@
           </ParameterList>
         </ParameterList>
       </ParameterList> -->
- 
+
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="restart file" type="string" value="../../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5" />
+        <Parameter name="restart file" type="string" value="../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5" />
       </ParameterList>
  
       <ParameterList name="thermal conductivity evaluator" type="ParameterList">
@@ -533,7 +533,7 @@
         <Parameter name="verbosity level" type="string" value="low" />
       </ParameterList>
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="restart file" type="string" value="../../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5" />
+        <Parameter name="restart file" type="string" value="../../../3_spinup/Case3_ces_dynamic_spinup.demo/checkpoint_final.h5" />
       </ParameterList>
  
       <ParameterList name="inverse" type="ParameterList">
@@ -586,7 +586,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="   6.3739000E-01" />
+                <Parameter name="value" type="double" value="0.63739000000000" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -595,7 +595,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="   4.8103077E-01" />
+                <Parameter name="value" type="double" value="0.48103076529000" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -641,7 +641,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="    5.3466221E-11" />
+                <Parameter name="value" type="double" value="5.34662212720e-11" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -650,7 +650,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-constant" type="ParameterList">
-                <Parameter name="value" type="double" value="    1.0000000E-13" />
+                <Parameter name="value" type="double" value="1.00000000000e-13" />
               </ParameterList>
             </ParameterList>
           </ParameterList>
@@ -889,7 +889,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
+                <Parameter name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="Incoming shortwave radiation (W/m^2)" />
               </ParameterList>
@@ -918,7 +918,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
+                <Parameter name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="air temperature [K]" />
               </ParameterList>
@@ -935,7 +935,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
+                <Parameter name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="Relative humidity at 5 m (%)" />
               </ParameterList>
@@ -955,7 +955,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
+                <Parameter name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="Wind speed at 10 m (m/s)" />
               </ParameterList>
@@ -975,7 +975,7 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
+                <Parameter name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="precipitation rain [m s^-1]" />
               </ParameterList>
@@ -995,10 +995,10 @@
             <Parameter name="component" type="string" value="cell" />
             <ParameterList name="function" type="ParameterList">
               <ParameterList name="function-tabular" type="ParameterList">
-                <Parameter name="file" type="string" value="../../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
+                <Parameter name="file" type="string" value="../../../1_data_prep/Final_InputData_Case3/Calib_data_Case3_ces_2016.h5" />
                 <Parameter name="x header" type="string" value="time [s]" />
                 <Parameter name="y header" type="string" value="Snow water equivalence (m/s)_sd004" />
-              </ParameterList>
+              </ParameterList> 
               <!--<ParameterList name="function-constant" type="ParameterList">
                 <Parameter name="value" type="double" value="0.0" />
               </ParameterList> -->
@@ -1031,10 +1031,10 @@
         <ParameterList name="surface domain" type="ParameterList">
           <!-- The below parameter - dessicated zone thickness is not used in the model -->
           <Parameter name="dessicated zone thickness [m]" type="double" value="0.1" />
-          <Parameter name="roughness length of bare ground [m]" type="double" value="  4.0000000E-02" />
-          <Parameter name="roughness length of snow [m]" type="double" value="  5.0000000E-03" />
+          <Parameter name="roughness length of bare ground [m]" type="double" value="0.0400000000000" />
+          <Parameter name="roughness length of snow [m]" type="double" value=" 5.00000000e-03" />
           <!-- Is the water transition depth [m] similar to the penetration depth of sw radiation in water from the article? -->
-          <Parameter name="snow transition depth [m]" type="double" value="   2.0000000E-02" />
+          <Parameter name="snow transition depth [m]" type="double" value="0.02000000000000" />
           <Parameter name="water transition depth [m]" type="double" value="   1.0000000E-02" />
           <Parameter name="albedo of bare ground [-]" type="double" value="       5.5000000E-01" />
           <Parameter name="emissivity of bare ground [-]" type="double" value="  5.5000000E-01" />
@@ -1066,7 +1066,7 @@
       <Parameter name="times start period stop units" type="string" value="d" />
       <Parameter name="delimiter" type="string" value=" " />
       <ParameterList name="observed quantities" type="ParameterList">
- 
+        
         <ParameterList name="point -0.04 temperature [K]" type="ParameterList">
           <Parameter name="variable" type="string" value="temperature" />
           <Parameter name="region" type="string" value="subsurface point -0.04" />
@@ -1109,7 +1109,7 @@
           <Parameter name="functional" type="string" value="point" />
           <Parameter name="location name" type="string" value="cell" />
         </ParameterList>
- 
+        
         <ParameterList name="point -0.04 saturation liquid" type="ParameterList">
           <Parameter name="variable" type="string" value="saturation_liquid" />
           <Parameter name="region" type="string" value="subsurface point -0.04" />

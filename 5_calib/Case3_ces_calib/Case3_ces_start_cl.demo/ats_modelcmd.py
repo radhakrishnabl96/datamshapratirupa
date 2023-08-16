@@ -7,7 +7,7 @@ import re
 import pandas as pd
 
 # The file name, porosity of peat and mineral line has to be identified the porosity - Therefore change when the .xml file changes
-file_name = 'Case3' # Change
+file_name = 'Case3_ces' # Change
 line_por_peat = 588 # Change (-1 of the line where porosity of peat is found)
 line_por_mineral = 597 # Change (-1 of the line where porosity of mineral is found)
 
