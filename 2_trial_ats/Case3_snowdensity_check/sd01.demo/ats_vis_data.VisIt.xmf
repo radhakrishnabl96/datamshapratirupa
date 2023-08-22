@@ -1,0 +1,43 @@
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid CollectionType="Temporal" GridType="Collection">
+      <xi:include href="ats_vis_data.h5.0.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.21.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.31.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.41.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.51.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.69.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.80.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.90.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.100.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.110.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.120.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.136.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.146.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.156.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.166.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.256.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.571.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1379.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1504.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1532.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1552.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1585.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1605.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1619.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1635.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1659.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1730.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1913.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.1991.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.2014.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.2035.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.2053.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.2063.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.2073.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.2083.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.2093.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+      <xi:include href="ats_vis_data.h5.2108.xmf" xpointer="xpointer(//Xdmf/Domain/Grid)"/>
+    </Grid>
+  </Domain>
+</Xdmf>
