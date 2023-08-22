@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Bangalore Lakshmiprasad"
+  given-names: "Radhakrishna"
+  orcid: "https://orcid.org/0000-0002-1361-711X"
+title: "radhakrishnabl96/datamshapratirupa: Initial release"
+version: 1.0
+doi: 10.5281/zenodo.8273589
+date-released: 2023-08-22
+url: "https://doi.org/10.5281/zenodo.8273589"
